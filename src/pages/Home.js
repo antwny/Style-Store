@@ -1,10 +1,11 @@
 import ProductCard from "../components/ProductCard";
 import "../styles/Home.css";
 import Banner from "../components/Banner";
-import { useNavigate } from "react-router-dom"; // <-- Agrega esto
+import { useNavigate } from "react-router-dom"; 
+import CategorySection from '../components/CategorySection';
 
 function Home() {
-  const navigate = useNavigate(); // <-- Agrega esto
+  const navigate = useNavigate(); 
 
   const products = [
     {
@@ -59,6 +60,7 @@ function Home() {
         botonTexto="Ver ofertas"
         onBotonClick={() => navigate("/hombres")} // <-- Cambia esto
       />
+      <CategorySection />
       <div className="home-container">
         <h2 className="section-title">Lo más nuevo</h2>
         <p className="section-description">
