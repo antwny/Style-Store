@@ -1,0 +1,72 @@
+.footer {
+  background-color: #2e2e2e;
+  color: #f4f4f4;
+  padding: 2rem 1rem;
+  font-size: 0.95rem;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer h2, .footer h4 {
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer ul li a {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-contact p,
+.footer-brand p {
+  margin: 0.4rem 0;
+}
+
+.social-icons a {
+  display: block;
+  margin-bottom: 0.4rem;
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #1abc9c;
+}
+
+.footer-copy {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  border-top: 1px solid #555;
+  padding-top: 1rem;
+  color: #ccc;
+}
+.footer-redes img {
+  width: 28px;
+  margin-right: 10px;
+  filter: brightness(0) invert(1);
+  transition: transform 0.2s;
+}
+
+.footer-redes img:hover {
+  transform: scale(1.1);
+}

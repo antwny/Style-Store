@@ -3,6 +3,24 @@ import "./Home.css";
 
 function Home() {
   const products = [
+            {
+      name: "Polera Hombre Core Negro",
+      price: 49.95,
+      oldPrice: 99,
+      discount: 25,
+      sizes: ["S", "M", "L", "XL"],
+      color: "Negro",
+      image: "https://topitop.vtexassets.com/arquivos/ids/366519/1687364_1.jpg?v=638630743888200000",
+    },
+        {
+      name: "Camisa Casual",
+      price: 89.90,
+      oldPrice: 99,
+      discount: 25,
+      sizes: ["S", "M", "L", "XL"],
+      color: "Marron",
+      image: "https://topitop.vtexassets.com/arquivos/ids/387324/3141954_1.jpg?v=638887968182270000",
+    },
     {
       name: "Camiseta Básica Premium",
       price: 49,

@@ -5,7 +5,7 @@ import Products from "./pages/Products";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Hombres from './pages/Hombres';
-
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,6 +19,8 @@ function App() {
         <Route path="/hombres" element={<Hombres />} />
 
       </Routes>
+      <Footer />
+
     </Router>
   );
 }
