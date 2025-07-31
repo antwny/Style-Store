@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./Footer.css";
+import "../styles/Footer.css";
 import facebookIcon from "../assets/social/icons8-facebook-40.png";
 import instagramIcon from "../assets/social/icons8-instagram-40.png";
 import tiktokIcon from "../assets/social/icons8-tiktok-40.png";
@@ -27,9 +27,9 @@ function Footer() {
 
         <div className="footer-contact">
           <h4>Contáctanos</h4>
-          <p>📧 contacto@stylestore.pe</p>
-          <p>📞 +51 987 654 321</p>
-          <p>📍 Callao, Perú</p>
+          <p>Email: contacto@stylestore.pe</p>
+          <p>Tel: +51 987 654 321</p>
+          <p>Lima, Perú</p>
         </div>
 
                 <div className="footer-social">

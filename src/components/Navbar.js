@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./Navbar.css";
+import "../styles/Navbar.css";
 
 function Navbar() {
   return (
@@ -30,7 +30,7 @@ function Navbar() {
               <Link className="nav-link" to="/mujeres">Mujeres</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/contacto">Contacto</Link>
+              <Link className="nav-link" to="/contact">Contacto</Link>
             </li>
           </ul>
 

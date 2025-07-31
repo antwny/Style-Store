@@ -1,6 +1,6 @@
 // src/pages/Hombres.jsx
 import React from "react";
-import "./Hombres.css"; // Asegúrate de tener esta hoja o adaptar al estilo actual
+import "../styles/Hombres.css"; // Asegúrate de tener esta hoja o adaptar al estilo actual
 
 function Hombres() {
   return (
