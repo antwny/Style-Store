@@ -1,0 +1,30 @@
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.02);
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #999;
+  margin-left: 0.5rem;
+}
+
+.discount-tag {
+  background-color: crimson;
+  color: white;
+  padding: 0.2rem 0.4rem;
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+  border-radius: 4px;
+}
