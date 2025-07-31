@@ -42,12 +42,12 @@ function Home() {
         "https://topitop.vtexassets.com/arquivos/ids/294385/1682195_1.jpg?v=638265194837100000",
     },
     {
-      name: "Vestido Floral Elegante",
-      price: 89,
-      oldPrice: 99,
-      discount: 25,
+      name: "Vestido Mujer Martina Print",
+      price: 43.96,
+      oldPrice: 109.90,
+      discount: 60,
       sizes: ["XS", "S", "M", "L"],
-      color: "Blanco",
+      color: "Rosado Agua",
       image:
         "https://topitop.vtexassets.com/arquivos/ids/373227/2052261_1.jpg?v=638690081663830000",
     },
@@ -81,8 +81,9 @@ function Home() {
           </div>
         </div>
       </div>
-      <SpecialOffers />
       <Testimonials />
+      <SpecialOffers />
+      
 
     </div>
   );
