@@ -59,7 +59,7 @@ function Home() {
       <Banner
         mensaje="¡Descuento del 20% en toda la tienda esta semana!"
         colorFondo="#000000ff"
-        imagen="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80"
+        imagen="https://retrosoultienda.com/wp-content/uploads/2020/04/banner1.png"
         botonTexto="Ver ofertas"
         onBotonClick={() => navigate("/hombres")} // <-- Cambia esto
       />

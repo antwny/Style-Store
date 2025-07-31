@@ -31,12 +31,17 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/hombres">
-                Hombres
+                Hombre
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/mujeres">
-                Mujeres
+                Mujer
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/infantil">
+                Infantil
               </Link>
             </li>
             <li className="nav-item">
@@ -44,6 +49,7 @@ function Navbar() {
                 Contacto
               </Link>
             </li>
+
           </ul>
 
           <Link

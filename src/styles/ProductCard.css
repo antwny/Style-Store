@@ -1,4 +1,5 @@
 .product-card {
+  
   border: none;
   border-radius: 12px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -12,7 +13,7 @@
 }
 
 .product-card img {
-  height: 250px;
+  height: 290px;
   object-fit: cover;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
