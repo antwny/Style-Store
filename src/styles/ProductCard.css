@@ -4,7 +4,7 @@
   height: 420px;
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12); /* Sombra base más visible */
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -15,8 +15,8 @@
 
 
 .product-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 16px 32px rgba(0,0,0,0.22); /* Sombra más intensa al hover */
 }
 
 
