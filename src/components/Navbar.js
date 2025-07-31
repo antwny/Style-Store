@@ -4,9 +4,10 @@ import "../styles/Navbar.css";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
-      <div className="container-fluid px-5">
-        <Link className="navbar-brand" to="/">
+      <div className="container-fluid px-4 py-2">
+        <Link className="navbar-brand d-flex align-items-center" to="/">
           <span className="style-logo">Style</span>
+          <span className="store-logo">Store</span>
         </Link>
 
         <button
@@ -18,25 +19,44 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse" id="navbarContent">
+        <div
+          className="collapse navbar-collapse justify-content-between"
+          id="navbarContent"
+        >
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link active" to="/">Inicio</Link>
+              <Link className="nav-link" to="/">
+                Inicio
+              </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/hombres">Hombres</Link>
+              <Link className="nav-link" to="/hombres">
+                Hombres
+              </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/mujeres">Mujeres</Link>
+              <Link className="nav-link" to="/mujeres">
+                Mujeres
+              </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/contact">Contacto</Link>
+              <Link className="nav-link" to="/contact">
+                Contacto
+              </Link>
             </li>
           </ul>
 
-          <Link to="/carrito" className="btn btn-outline-dark">
-            <img src="https://img.icons8.com/material-outlined/24/000000/shopping-cart.png" alt="Carrito" />
-            <span className="ms-2">Carrito</span>
+          <Link
+            to="/carrito"
+            className="btn btn-outline-dark d-flex align-items-center"
+          >
+            <img
+              width="32"
+              height="32"
+              src="https://img.icons8.com/windows/32/shopping-cart.png"
+              alt="shopping-cart"
+            />
+            
           </Link>
         </div>
       </div>

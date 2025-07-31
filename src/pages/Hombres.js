@@ -4,11 +4,11 @@ import "../styles/Hombres.css"; // Asegúrate de tener esta hoja o adaptar al es
 
 function Hombres() {
   return (
-    <div className="hombres-page">
-      <div className="banner-hombres">
-        <h1>Ropa para Hombres</h1>
-        <p>
-          Explora nuestra colección pensada para estilo y comodidad masculina.
+      <div className="hombres-page">
+        <div className="banner-hombres">
+          <h1>Ropa para Hombres</h1>
+          <p>
+            Explora nuestra colección pensada para estilo y comodidad masculina.
         </p>
       </div>
 

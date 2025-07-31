@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/CategorySection.css';
 
 const categories = [
@@ -13,12 +14,12 @@ const CategorySection = () => {
       <h2>Categorías Destacadas</h2>
       <div className="category-grid">
         {categories.map((cat, i) => (
-          <a key={i} href={cat.link} className="category-card">
+          <Link key={i} to={cat.link} className="category-card">
             <img src={cat.image} alt={cat.name} />
             <div className="category-overlay">
               <h3>{cat.name}</h3>
             </div>
-          </a>
+          </Link>
         ))}
       </div>
     </section>
