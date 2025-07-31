@@ -35,7 +35,8 @@ function Navbar() {
           </ul>
 
           <Link to="/carrito" className="btn btn-outline-dark">
-            🛒 Carrito
+            <img src="https://img.icons8.com/material-outlined/24/000000/shopping-cart.png" alt="Carrito" />
+            <span className="ms-2">Carrito</span>
           </Link>
         </div>
       </div>
