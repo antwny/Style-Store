@@ -1,0 +1,47 @@
+.contact-container {
+  display: flex;
+
+
+  background-color: #f8f8f8;
+}
+
+.contact-image img {
+
+  max-width: 60%;
+  height: auto;
+
+  
+}
+
+.contact-form {
+    padding-top: 4%;
+    padding-right: 4%;
+    padding-left: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 0.75rem;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}

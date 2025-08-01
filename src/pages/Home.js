@@ -6,7 +6,6 @@ import CategorySection from "../components/CategorySection";
 import SpecialOffers from "../components/SpecialOffers";
 import Testimonials from '../components/Testimonials';
 
-
 function Home() {
   const navigate = useNavigate();
 

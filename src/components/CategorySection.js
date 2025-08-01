@@ -5,7 +5,7 @@ import '../styles/CategorySection.css';
 const categories = [
   { name: "Hombre", image: "https://www.lagarrocha.es/contenidos/contenidos/entradas/0/38-camisas-fondo-de-armario-hombre.jpg", link: "/hombres" },
   { name: "Mujer", image: "https://danimateluna.cl/wp-content/uploads/2022/01/Estilos-de-ropa.jpg.webp", link: "/mujeres" },
-  { name: "Infantil", image: "https://sumaqmercados.pe/wp-content/uploads/2023/06/sumaq-mercados-blog-tipos-de-ropas-para-ninos.jpg", link: "/ninos" },
+  { name: "Infantil", image: "https://sumaqmercados.pe/wp-content/uploads/2023/06/sumaq-mercados-blog-tipos-de-ropas-para-ninos.jpg", link: "/infantil" },
 ];
 
 const CategorySection = () => {
