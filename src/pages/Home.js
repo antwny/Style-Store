@@ -4,7 +4,7 @@ import Banner from "../components/Banner";
 import { useNavigate } from "react-router-dom";
 import CategorySection from "../components/CategorySection";
 import SpecialOffers from "../components/SpecialOffers";
-import Testimonials from '../components/Testimonials';
+import Testimonials from "../components/Testimonials";
 
 function Home() {
   const navigate = useNavigate();
@@ -43,7 +43,7 @@ function Home() {
     {
       name: "Vestido Mujer Martina Print",
       price: 43.96,
-      oldPrice: 109.90,
+      oldPrice: 109.9,
       discount: 60,
       sizes: ["XS", "S", "M", "L"],
       color: "Rosado Agua",
@@ -65,10 +65,7 @@ function Home() {
       <CategorySection />
 
       <div className="home-container">
-        <h2 className="section-title">Lo más nuevo</h2>
-        <p className="section-description">
-          Descubre nuestra colección de {products.length} productos
-        </p>
+        <h2 className="section-title">Lo más Vendido</h2>
 
         <div className="container my-4">
           <div className="row g-4">
@@ -82,8 +79,6 @@ function Home() {
       </div>
       <Testimonials />
       <SpecialOffers />
-      
-
     </div>
   );
 }

@@ -47,3 +47,22 @@
 .btn-dark:hover {
   background-color: #333;
 }
+.talla-btn {
+  border: 1px solid #ccc;
+  border-radius: 50px; /* Para hacerlo circular */
+  padding: 8px 16px;
+  margin: 4px;
+  cursor: pointer;
+  background-color: white;
+  transition: all 0.2s ease;
+}
+
+.talla-btn:hover {
+  background-color: #eee;
+}
+
+.talla-btn.selected {
+  background-color: black;
+  color: white;
+  border-color: black;
+}

@@ -1,22 +1,25 @@
-import React from 'react';
-import '../styles/Testimonials.css';
+import React from "react";
+import "../styles/Testimonials.css";
 
 const testimonials = [
   {
     name: "María L.",
-    comment: "La calidad del producto superó mis expectativas. Entrega rápida y excelente atención.",
-    image: "https://i.pravatar.cc/100?img=47"
+    comment:
+      "La calidad del producto superó mis expectativas. Entrega rápida y excelente atención.",
+    image: "https://i.pravatar.cc/100?img=47",
   },
   {
     name: "Carlos R.",
-    comment: "Muy buena experiencia de compra. Definitivamente volveré a comprar.",
-    image: "https://i.pravatar.cc/100?img=32"
+    comment:
+      "Muy buena experiencia de compra. Definitivamente volveré a comprar.",
+    image: "https://i.pravatar.cc/100?img=32",
   },
   {
     name: "Lucía G.",
-    comment: "Me encantó todo, desde el empaque hasta el servicio. Recomendado al 100%.",
-    image: "https://i.pravatar.cc/100?img=15"
-  }
+    comment:
+      "Me encantó todo, desde el empaque hasta el servicio. Recomendado al 100%.",
+    image: "https://i.pravatar.cc/100?img=15",
+  },
 ];
 
 const Testimonials = () => {

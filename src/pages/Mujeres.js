@@ -8,9 +8,9 @@ function Mujeres() {
   const newProducts = [
     {
       name: "Vestido Mujer Martina Print",
-      price:  43.96,
-      oldPrice: 109.90,
-      discount: 60, 
+      price: 43.96,
+      oldPrice: 109.9,
+      discount: 60,
       sizes: ["S", "M", "L"],
       color: "Rosado Agua",
       image:
@@ -19,7 +19,7 @@ function Mujeres() {
     {
       name: "Casaca Mujer Daroy",
       price: 91.96,
-      oldPrice: 229.90,
+      oldPrice: 229.9,
       discount: 60,
       sizes: ["S", "M", "L", "XL"],
       color: "Coco",
@@ -29,7 +29,7 @@ function Mujeres() {
     {
       name: "Falda Short Mujer Fan",
       price: 39.96,
-      oldPrice: 99.90,
+      oldPrice: 99.9,
       discount: 60,
       sizes: ["S", "M", "L", "XL"],
       color: "Negro",
@@ -39,7 +39,7 @@ function Mujeres() {
     {
       name: "Casaca Mujer Eru",
       price: 91.96,
-      oldPrice: 229.90,
+      oldPrice: 229.9,
       discount: 60,
       sizes: ["S", "M", "L", "XL"],
       color: "Beige",
@@ -49,7 +49,7 @@ function Mujeres() {
     {
       name: "Jean Mujer Zara Total Dirty",
       price: 87.95,
-      oldPrice:  159.90,
+      oldPrice: 159.9,
       discount: 45,
       sizes: ["S", "M", "L", "XL"],
       color: "Stone",
@@ -59,7 +59,7 @@ function Mujeres() {
     {
       name: "Chompa Mujer Alto Niquel Poly Htr",
       price: 39.96,
-      oldPrice:  99.90,
+      oldPrice: 99.9,
       discount: 60,
       sizes: ["S", "M", "L", "XL"],
       color: "Gris",
@@ -68,8 +68,8 @@ function Mujeres() {
     },
     {
       name: "Jean Mujer Yildaz",
-      price:  87.95,
-      oldPrice: 159.90,
+      price: 87.95,
+      oldPrice: 159.9,
       discount: 45,
       sizes: ["S", "M", "L", "XL"],
       color: "Azul",
@@ -79,7 +79,7 @@ function Mujeres() {
     {
       name: "Casaca Mujer Fernanda",
       price: 59.96,
-      oldPrice:  149.90,
+      oldPrice: 149.9,
       discount: 60,
       sizes: ["S", "M", "L", "XL"],
       color: "Negro",

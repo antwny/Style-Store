@@ -1,12 +1,14 @@
-import React from 'react';
-import '../styles/Contact.css'; // Estilos personalizados
+import React from "react";
+import "../styles/Contact.css"; // Estilos personalizados
 
 const Contact = () => {
   return (
-    
     <div className="contact-container">
       <div className="contact-image">
-        <img src="https://topitop.vtexassets.com/arquivos/banner-contactanos-desktop.jpg" alt="Personas usando ropa estilo StyleStore" />
+        <img
+          src="https://topitop.vtexassets.com/arquivos/banner-contactanos-desktop.jpg"
+          alt="Personas usando ropa estilo StyleStore"
+        />
       </div>
 
       <form className="contact-form">

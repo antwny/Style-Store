@@ -8,9 +8,9 @@ function Mujeres() {
   const newProducts = [
     {
       name: "Polo Niña Mariamanda",
-      price:  15.96,
-      oldPrice:  39.90,
-      discount: 60, 
+      price: 15.96,
+      oldPrice: 39.9,
+      discount: 60,
       sizes: ["S", "M", "L"],
       color: "Beige",
       image:
@@ -19,7 +19,7 @@ function Mujeres() {
     {
       name: "Polera Niña Cayetana",
       price: 58.44,
-      oldPrice: 89.90,
+      oldPrice: 89.9,
       discount: 35,
       sizes: ["S", "M", "L", "XL"],
       color: "Rosado Chicle",
@@ -29,7 +29,7 @@ function Mujeres() {
     {
       name: "Casaca Niño Alfredo",
       price: 134.93,
-      oldPrice: 179.90,
+      oldPrice: 179.9,
       discount: 25,
       sizes: ["S", "M", "L", "XL"],
       color: "Aqua Pastel",
@@ -39,7 +39,7 @@ function Mujeres() {
     {
       name: "Vestido Denim Niña Violeta",
       price: 54.95,
-      oldPrice: 99.90,
+      oldPrice: 99.9,
       discount: 45,
       sizes: ["S", "M", "L", "XL"],
       color: "Blue Wash",
@@ -49,7 +49,7 @@ function Mujeres() {
     {
       name: "Casaca Niño Gregor",
       price: 97.93,
-      oldPrice:  139.90,
+      oldPrice: 139.9,
       discount: 30,
       sizes: ["S", "M", "L", "XL"],
       color: "Plomo Intenso",
@@ -59,7 +59,7 @@ function Mujeres() {
     {
       name: "Cardigan Niña Miriam Rosemen",
       price: 51.94,
-      oldPrice:   79.90,
+      oldPrice: 79.9,
       discount: 35,
       sizes: ["S", "M", "L", "XL"],
       color: "Rosado",
@@ -68,8 +68,8 @@ function Mujeres() {
     },
     {
       name: "Jean Niña Mafer Light Wash",
-      price:  65.94,
-      oldPrice: 109.90,
+      price: 65.94,
+      oldPrice: 109.9,
       discount: 40,
       sizes: ["S", "M", "L", "XL"],
       color: "Azul",
@@ -79,7 +79,7 @@ function Mujeres() {
     {
       name: "Casaca Niña Isabel ",
       price: 107.94,
-      oldPrice:  179.90,
+      oldPrice: 179.9,
       discount: 40,
       sizes: ["S", "M", "L", "XL"],
       color: "Aqua",
@@ -99,16 +99,13 @@ function Mujeres() {
         />
         <div className="banner-text">
           <h1>Infantil</h1>
-          <p>
-            Descubre la colección destacada para niños y niñas
-          </p>
+          <p>Descubre la colección destacada para niños y niñas</p>
         </div>
       </div>
       <div className="home-container">
         <h2 className="section-title">Lo más nuevo</h2>
         <p className="section-description">
-            Explora nuestra colección de ropa infantil.
-            
+          Explora nuestra colección de ropa infantil.
         </p>
 
         <div className="container my-4">

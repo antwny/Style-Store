@@ -49,7 +49,6 @@ function Navbar() {
                 Contacto
               </Link>
             </li>
-
           </ul>
 
           <Link
@@ -62,7 +61,6 @@ function Navbar() {
               src="https://img.icons8.com/windows/32/shopping-cart.png"
               alt="shopping-cart"
             />
-            
           </Link>
         </div>
       </div>
