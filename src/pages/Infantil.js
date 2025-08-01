@@ -94,7 +94,7 @@ function Mujeres() {
       <div className="banner-hombres">
         <img
           src="https://topitop.vtexassets.com/assets/vtex.file-manager-graphql/images/e6d1087e-0206-4df5-b71e-e6b78033b0ec___7fb142306c956d13ccdc870705cd839b.png"
-          alt="Banner Mujer"
+          alt="Banner Infantil"
           className="banner-image"
         />
         <div className="banner-text">
@@ -107,7 +107,7 @@ function Mujeres() {
       <div className="home-container">
         <h2 className="section-title">Lo más nuevo</h2>
         <p className="section-description">
-            Explora nuestra colección de ropa infantil, diseñada para brindar comodidad y estilo a los más pequeños.
+            Explora nuestra colección de ropa infantil.
             
         </p>
 
