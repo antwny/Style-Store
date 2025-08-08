@@ -8,7 +8,7 @@ const productos = [
     sizes: ["S", "M", "L"],
     color: "Beige",
     image:
-      "https://topitop.vtexassets.com/arquivos/ids/386728-500-auto?v=638870108111870000",
+      "https://topitop.vtexassets.com/arquivos/ids/387965/3111954_1.jpg?v=638901348304930000",
     descripcion: {
       resumen:
         "Renueva tu guardarropa con esta Casaca Hombre en el color de tu preferencia y combínala para armar tu look perfecto.",
