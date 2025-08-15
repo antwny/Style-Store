@@ -1,6 +1,7 @@
 .navbar {
-  position: sticky; /* o usa fixed si prefieres que se superponga */
+  position: sticky; 
   top: 0;
+  box-shadow: 0 0px 12px rgba(0, 0, 0, 0.9);
   z-index: 1000;
   background-color: #ffffff;
   transition: box-shadow 0.3s ease;
@@ -22,7 +23,7 @@
 
 /* Links del navbar */
 .navbar .nav-link {
-  font-weight: 500;
+  font-weight: 600;
   color: #333333 !important;
 }
 

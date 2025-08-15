@@ -1,12 +1,17 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
-import productos from "../data/productosHombres";
+import productosHombres from "../data/productosHombres";
+import productosMujeres from "../data/productosMujeres";
+import productosInfantil from "../data/productosInfantil";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/ProductCard.css";
 
 function ProductoDetalle() {
   const { id } = useParams();
-  const producto = productos.find((p) => p.id === parseInt(id));
+  const producto =
+    productosHombres.find((p) => p.id === Number(id)) ||
+    productosInfantil.find((p) => p.id === Number(id)) ||
+    productosMujeres.find((p) => p.id === Number(id));
   const [cantidad, setCantidad] = useState(1);
   const [tallaSeleccionada, setTallaSeleccionada] = useState("S"); // S por defecto
 

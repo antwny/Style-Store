@@ -2,92 +2,10 @@
 import React from "react";
 import "../styles/Hombres.css"; // Asegúrate de tener este CSS actualizado
 import ProductCard from "../components/ProductCard";
-import "../styles/ProductCard.css"; // Asegúrate de tener este CSS actualizado
+import "../styles/ProductCard.css";
+import productos from "../data/productosInfantil"  // Asegúrate de tener este CSS actualizado
 
 function Mujeres() {
-  const newProducts = [
-    {
-      name: "Polo Niña Mariamanda",
-      price: 15.96,
-      oldPrice: 39.9,
-      discount: 60,
-      sizes: ["S", "M", "L"],
-      color: "Beige",
-      image:
-        "https://topitop.vtexassets.com/arquivos/ids/364044/1998599_1.jpg?v=638572585776130000",
-    },
-    {
-      name: "Polera Niña Cayetana",
-      price: 58.44,
-      oldPrice: 89.9,
-      discount: 35,
-      sizes: ["S", "M", "L", "XL"],
-      color: "Rosado Chicle",
-      image:
-        "https://topitop.vtexassets.com/arquivos/ids/386515-500-auto?v=638854382024470000&width=500&height=auto&aspect=true",
-    },
-    {
-      name: "Casaca Niño Alfredo",
-      price: 134.93,
-      oldPrice: 179.9,
-      discount: 25,
-      sizes: ["S", "M", "L", "XL"],
-      color: "Aqua Pastel",
-      image:
-        "https://topitop.vtexassets.com/arquivos/ids/387229-500-auto?v=638873478388570000&width=500&height=auto&aspect=true",
-    },
-    {
-      name: "Vestido Denim Niña Violeta",
-      price: 54.95,
-      oldPrice: 99.9,
-      discount: 45,
-      sizes: ["S", "M", "L", "XL"],
-      color: "Blue Wash",
-      image:
-        "https://topitop.vtexassets.com/arquivos/ids/387052/3093189_1.jpg?v=638870308127500000",
-    },
-    {
-      name: "Casaca Niño Gregor",
-      price: 97.93,
-      oldPrice: 139.9,
-      discount: 30,
-      sizes: ["S", "M", "L", "XL"],
-      color: "Plomo Intenso",
-      image:
-        "https://topitop.vtexassets.com/arquivos/ids/387088/3100904_1.jpg?v=638870312053070000",
-    },
-    {
-      name: "Cardigan Niña Miriam Rosemen",
-      price: 51.94,
-      oldPrice: 79.9,
-      discount: 35,
-      sizes: ["S", "M", "L", "XL"],
-      color: "Rosado",
-      image:
-        "https://topitop.vtexassets.com/arquivos/ids/386469/3093647_1.jpg?v=638853506702470000",
-    },
-    {
-      name: "Jean Niña Mafer Light Wash",
-      price: 65.94,
-      oldPrice: 109.9,
-      discount: 40,
-      sizes: ["S", "M", "L", "XL"],
-      color: "Azul",
-      image:
-        "https://topitop.vtexassets.com/arquivos/ids/386473/3109200_1.jpg?v=638853507178230000",
-    },
-    {
-      name: "Casaca Niña Isabel ",
-      price: 107.94,
-      oldPrice: 179.9,
-      discount: 40,
-      sizes: ["S", "M", "L", "XL"],
-      color: "Aqua",
-      image:
-        "https://topitop.vtexassets.com/arquivos/ids/386507/2003582_1.jpg?v=638854381115770000",
-    },
-    // Agrega más productos si deseas
-  ];
 
   return (
     <div className="hombres-page">
@@ -110,9 +28,9 @@ function Mujeres() {
 
         <div className="container my-4">
           <div className="row g-4">
-            {newProducts.map((product, index) => (
+            {productos.map((product, index) => (
               <div className="col-12 col-sm-6 col-md-4 col-lg-3" key={index}>
-                <ProductCard {...product} />
+                <ProductCard key={product.id} {...product} />
               </div>
             ))}
           </div>

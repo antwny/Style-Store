@@ -53,12 +53,12 @@ function Navbar() {
 
           <Link
             to="/carrito"
-            className="btn btn-outline-dark d-flex align-items-center"
+            
           >
             <img
               width="32"
               height="32"
-              src="https://img.icons8.com/windows/32/shopping-cart.png"
+              src="https://img.icons8.com/?size=32&id=M5FruzZetXVn&format=png"
               alt="shopping-cart"
             />
           </Link>

@@ -12,7 +12,7 @@ const offers = [
   {
     name: "Casaca Hombre Aiden Beige",
     image:
-      "https://topitop.vtexassets.com/arquivos/ids/386728-500-auto?v=638870108111870000&width=500&height=auto&aspect=true",
+      "https://topitop.vtexassets.com/arquivos/ids/387965/3111954_1.jpg?v=638901348304930000",
     originalPrice: 229.9,
     discountedPrice: 160.93,
   },
