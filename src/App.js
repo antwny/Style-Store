@@ -10,6 +10,7 @@ import Infantil from "./pages/Infantil";
 import ProductoDetalle from "./pages/ProductoDetalle";
 import ScrollToTop from "./components/ScrollToTop";
 import Cart from "./pages/Cart"; 
+import Checkout from "./pages/Checkout";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/producto/:id" element={<ProductoDetalle />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/carrito" element={<Cart />} /> {/* Soporte para /carrito */}
+        <Route path="/checkout" element={<Checkout />} />
       </Routes>
       <Footer />
     </>

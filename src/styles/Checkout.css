@@ -1,0 +1,141 @@
+.checkout-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.checkout-summary {
+  flex: 1;
+  min-width: 280px;
+  background: #fafbfc;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 1.5rem 1.2rem;
+}
+
+.checkout-summary h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.checkout-summary ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.checkout-summary li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.7rem;
+  gap: 1rem;
+}
+
+.checkout-summary img {
+  width: 60px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.checkout-summary .item-info {
+  font-size: 0.97rem;
+  color: #222;
+}
+
+.checkout-summary .item-info strong {
+  font-size: 1rem;
+}
+
+.checkout-summary .item-info span {
+  color: #333;
+  font-weight: 600;
+}
+
+.checkout-summary h3 {
+  margin-top: 1.2rem;
+  font-size: 1.3rem;
+  color: #000;
+  font-weight: 700;
+}
+
+.checkout-form {
+  flex: 1;
+  min-width: 280px;
+  background: #fafbfc;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 1.5rem 1.2rem;
+}
+
+.checkout-form h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.checkout-form label {
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 0.2rem;
+  display: block;
+}
+
+.checkout-form input,
+.checkout-form select {
+  width: 100%;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  background: #fff;
+  transition: border 0.2s;
+}
+
+.checkout-form input:focus,
+.checkout-form select:focus {
+  border: 1.5px solid #222;
+  outline: none;
+}
+
+.checkout-form .error-msg {
+  color: #d9363e;
+  margin-bottom: 0.7rem;
+  font-weight: 500;
+}
+
+.checkout-form button {
+  width: 100%;
+  background: #222;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+  padding: 0.7rem 0;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  transition: background 0.2s;
+}
+
+.checkout-form button:disabled {
+  background: #888;
+  cursor: not-allowed;
+}
+
+.checkout-form button:hover:not(:disabled) {
+  background: #000;
+}
+
+@media (max-width: 900px) {
+  .checkout-flex {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
