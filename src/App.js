@@ -11,6 +11,7 @@ import ProductoDetalle from "./pages/ProductoDetalle";
 import ScrollToTop from "./components/ScrollToTop";
 import Cart from "./pages/Cart"; 
 import Checkout from "./pages/Checkout";
+import Busqueda from "./pages/Busqueda";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/cart" element={<Cart />} />
         <Route path="/carrito" element={<Cart />} /> {/* Soporte para /carrito */}
         <Route path="/checkout" element={<Checkout />} />
+        <Route path="/buscar" element={<Busqueda />} />
       </Routes>
       <Footer />
     </>

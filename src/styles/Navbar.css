@@ -46,3 +46,38 @@
 .navbar-brand {
   font-family: 'Montserrat', sans-serif;
 }
+.navbar-searchbar {
+  position: relative;
+  min-width: 200px;
+  max-width: 320px;
+  width: 100%;
+}
+
+.navbar-searchbar input[type="search"] {
+  width: 100%;
+  padding: 0.5rem 2.5rem 0.5rem 1rem;
+  border-radius: 20px;
+  border: 1.5px solid #ddd;
+  background: #fafbfc;
+  font-size: 1rem;
+  color: #222;
+  transition: border 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(34,34,34,0.04);
+}
+
+.navbar-searchbar input[type="search"]:focus {
+  border: 1.5px solid #222;
+  outline: none;
+  background: #fff;
+  box-shadow: 0 4px 16px rgba(34,34,34,0.08);
+}
+
+.navbar-searchbar .search-icon {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+  font-size: 1.2rem;
+  pointer-events: none;
+}

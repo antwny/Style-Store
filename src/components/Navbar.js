@@ -1,14 +1,25 @@
 // src/components/Navbar.js
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "../styles/Navbar.css";
-import { useContext } from "react";
+
+import { useContext, useState } from "react";
 import { CartContext } from "../context/CartContext";
 
 function Navbar() {
   const { totalItems } = useContext(CartContext);
+  const [busqueda, setBusqueda] = useState("");
+  const navigate = useNavigate();
 
   // Asegura que siempre sea un número válido
   const safeTotalItems = isNaN(totalItems) ? 0 : totalItems;
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (busqueda.trim()) {
+      navigate(`/buscar?q=${encodeURIComponent(busqueda)}`);
+      setBusqueda("");
+    }
+  };
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
@@ -58,6 +69,32 @@ function Navbar() {
               </Link>
             </li>
           </ul>
+
+          <form
+            className="navbar-searchbar me-3"
+            onSubmit={handleSubmit}
+          >
+            <input
+              type="search"
+              placeholder="Buscar productos..."
+              aria-label="Buscar"
+              value={busqueda}
+              onChange={(e) => setBusqueda(e.target.value)}
+            />
+            <span className="search-icon">
+              <svg
+                width="18"
+                height="18"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                viewBox="0 0 24 24"
+              >
+                <circle cx="11" cy="11" r="7" />
+                <line x1="16.65" y1="16.65" x2="21" y2="21" />
+              </svg>
+            </span>
+          </form>
 
           {/* 🔥 Carrito corregido con /cart */}
           <Link
