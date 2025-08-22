@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { CartContext } from "../context/CartContext";
 import { Link } from "react-router-dom";
+import "../styles/Cart.css";
 
 function Cart() {
   const { cart, totalItems, totalPrice, removeFromCart, updateQuantity, clearCart } =
@@ -8,7 +9,7 @@ function Cart() {
 
   if (!cart || cart.length === 0) {
     return (
-      <div className="container py-5 text-center">
+      <div className="cart-container cart-empty">
         <h3>Tu carrito está vacío</h3>
         <Link className="btn btn-dark mt-3" to="/">
           Ver productos
@@ -18,52 +19,49 @@ function Cart() {
   }
 
   return (
-    <div className="container py-5">
-      <h3>Carrito ({totalItems} artículos)</h3>
-
-      <div className="list-group mt-4">
+    <div className="cart-container">
+      <h2 className="cart-title">Carrito ({totalItems} artículos)</h2>
+      <div>
         {cart.map((item) => (
           <div
-            key={`${item.id}_${item.talla}`} // Cambiado de item.size a item.talla
-            className="list-group-item d-flex align-items-center"
+            key={`${item.id}_${item.talla}`}
+            className="cart-item"
           >
             <img
               src={item.image}
               alt={item.name}
-              style={{ width: 90, height: 90, objectFit: "cover" }}
-              className="me-3 rounded"
             />
-            <div className="flex-grow-1">
-              <h5 className="mb-1">{item.name}</h5>
-              <p className="mb-1">
-                Talla: <strong>{item.talla}</strong> {/* Cambiado de item.size a item.talla */}
-              </p>
-              <p className="mb-1">S/. {item.price.toLocaleString()} c/u</p>
-
-              <div className="d-flex align-items-center">
+            <div className="cart-item-details">
+              <div className="cart-item-title">{item.name}</div>
+              <div className="cart-item-size">
+                Talla: <strong>{item.talla}</strong>
+              </div>
+              <div className="cart-item-price">
+                S/. {item.price.toLocaleString()} c/u
+              </div>
+              <div className="cart-item-quantity mt-2">
                 <button
-                  className="btn btn-outline-secondary btn-sm"
-                  onClick={() => updateQuantity(item.id, item.talla, item.cantidad - 1)} // Cambiado de item.size y item.quantity
+                  onClick={() => updateQuantity(item.id, item.talla, item.cantidad - 1)}
+                  disabled={item.cantidad <= 1}
                 >
                   −
                 </button>
-                <span className="mx-2">{item.cantidad}</span> {/* Cambiado de item.quantity a item.cantidad */}
+                <span>{item.cantidad}</span>
                 <button
-                  className="btn btn-outline-secondary btn-sm"
-                  onClick={() => updateQuantity(item.id, item.talla, item.cantidad + 1)} // Cambiado de item.size y item.quantity
+                  onClick={() => updateQuantity(item.id, item.talla, item.cantidad + 1)}
                 >
                   +
                 </button>
               </div>
             </div>
-
-            <div className="text-end">
-              <p className="mb-1">
-                S/. {(item.price * item.cantidad).toLocaleString()} {/* Cambiado de item.quantity a item.cantidad */}
-              </p>
+            <div style={{ textAlign: "right" }}>
+              <div className="cart-item-price mb-2">
+                <strong>S/. {(item.price * item.cantidad).toLocaleString()}</strong>
+              </div>
               <button
-                className="btn btn-danger btn-sm"
-                onClick={() => removeFromCart(item.id, item.talla)} // Cambiado de item.size a item.talla
+                className="btn-remove"
+                title="Eliminar"
+                onClick={() => removeFromCart(item.id, item.talla)}
               >
                 Eliminar
               </button>
@@ -71,9 +69,8 @@ function Cart() {
           </div>
         ))}
       </div>
-
-      <div className="mt-4 text-end">
-        <h4>Total: S/. {totalPrice.toLocaleString()}</h4>
+      <div className="cart-summary">
+        <h3>Total: S/. {totalPrice.toLocaleString()}</h3>
         <button className="btn btn-outline-danger me-2" onClick={clearCart}>
           Vaciar carrito
         </button>
