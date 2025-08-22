@@ -1,0 +1,48 @@
+.navbar {
+  position: sticky; 
+  top: 0;
+  box-shadow: 0 0px 12px rgba(0, 0, 0, 0.9);
+  z-index: 1000;
+  background-color: #ffffff;
+  transition: box-shadow 0.3s ease;
+}
+
+/* Estilo para el logo */
+.style-logo {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1.5rem;
+}
+
+.store-logo {
+  font-weight: bold;
+  color: #555555;
+  font-size: 1.5rem;
+  margin-left: 4px;
+}
+
+/* Links del navbar */
+.navbar .nav-link {
+  font-weight: 600;
+  color: #333333 !important;
+}
+
+.navbar .nav-link:hover {
+  color: #000000 !important;
+}
+
+/* Botón de carrito */
+.btn-outline-dark {
+  border-color: #333333;
+  color: #333333;
+}
+
+.btn-outline-dark:hover {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+/* Estilos generales */
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+}

@@ -1,0 +1,66 @@
+.product-card {
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  height: 290px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover img {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.card-text {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.btn-dark {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-dark:hover {
+  background-color: #333;
+}
+
+.talla-btn:hover {
+  background-color: #eee;
+}
+
+
+/* tamaños botón talla (si usas el selector visual) */
+.talla-btn {
+  cursor: pointer;
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+.talla-btn.selected {
+  border: 2px solid #000;
+}

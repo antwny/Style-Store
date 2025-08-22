@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.nav-link,
+.card-title,
+.footer,
+.button {
+  font-family: "Montserrat", sans-serif;
+}
