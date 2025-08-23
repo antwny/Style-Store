@@ -12,6 +12,7 @@ function Home() {
 
   const products = [
     {
+      id: 3, // <-- Agrega el id correcto según tu data
       name: "Polera Hombre Core Negro",
       price: 49.95,
       oldPrice: 99,
@@ -22,6 +23,7 @@ function Home() {
         "https://topitop.vtexassets.com/arquivos/ids/366519/1687364_1.jpg?v=638630743888200000",
     },
     {
+      id: 4,
       name: "Camisa Casual",
       price: 89.9,
       oldPrice: 99,
@@ -32,6 +34,7 @@ function Home() {
         "https://topitop.vtexassets.com/arquivos/ids/387324/3141954_1.jpg?v=638887968182270000",
     },
     {
+      id: 5,
       name: "Camiseta Básica Premium",
       price: 49,
       oldPrice: 99,
@@ -42,6 +45,7 @@ function Home() {
         "https://topitop.vtexassets.com/arquivos/ids/294385/1682195_1.jpg?v=638265194837100000",
     },
     {
+      id: 101,
       name: "Vestido Mujer Martina Print",
       price: 43.96,
       oldPrice: 109.9,

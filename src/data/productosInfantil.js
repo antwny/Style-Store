@@ -10,6 +10,12 @@ const productos = [
     color: "Beige",
     image:
       "https://topitop.vtexassets.com/arquivos/ids/364044/1998599_1.jpg?v=638572585776130000",
+    images: [
+      "https://topitop.vtexassets.com/arquivos/ids/364045/1998599_2.jpg?v=638572585803400000",
+      "https://topitop.vtexassets.com/arquivos/ids/364046/1998599_3.jpg?v=638572585830600000",
+      "https://topitop.vtexassets.com/arquivos/ids/364047/1998599_4.jpg?v=638572585857400000",
+      "https://topitop.vtexassets.com/arquivos/ids/364044/1998599_1.jpg?v=638572585776130000"
+    ],
     descripcion: {
       resumen:
         "Polo de niña con detalles en lentejuelas y gasa, perfecto para darle un toque delicado al atuendo.",
@@ -37,6 +43,12 @@ const productos = [
     color: "Rosado Chicle",
     image:
       "https://topitop.vtexassets.com/arquivos/ids/386515-500-auto?v=638854382024470000&width=500&height=auto&aspect=true",
+    images: [
+      "https://topitop.vtexassets.com/arquivos/ids/386515-500-auto?v=638854382024470000&width=500&height=auto&aspect=true",
+      "https://topitop.vtexassets.com/arquivos/ids/386516-500-auto?v=638854382024570000&width=500&height=auto&aspect=true",
+      "https://topitop.vtexassets.com/arquivos/ids/386517-500-auto?v=638854382024670000&width=500&height=auto&aspect=true",
+      "https://topitop.vtexassets.com/arquivos/ids/386518-500-auto?v=638854382024770000&width=500&height=auto&aspect=true"
+    ],
     descripcion: {
       resumen:
         "Polera dulce en tono rosado con estampados suaves, ideal para el día a día con estilo.",
@@ -64,6 +76,12 @@ const productos = [
     color: "Aqua Pastel",
     image:
       "https://topitop.vtexassets.com/arquivos/ids/387229-500-auto?v=638873478388570000&width=500&height=auto&aspect=true",
+    images: [
+      "https://topitop.vtexassets.com/arquivos/ids/387229-500-auto?v=638873478388570000&width=500&height=auto&aspect=true",
+      "https://topitop.vtexassets.com/arquivos/ids/387230-500-auto?v=638873478388670000&width=500&height=auto&aspect=true",
+      "https://topitop.vtexassets.com/arquivos/ids/387231-500-auto?v=638873478388770000&width=500&height=auto&aspect=true",
+      "https://topitop.vtexassets.com/arquivos/ids/387232-500-auto?v=638873478388870000&width=500&height=auto&aspect=true"
+    ],
     descripcion: {
       resumen:
         "Casaca suave en tono aqua pastel, ideal para mantener a los pequeños abrigados en climas frescos.",
@@ -91,6 +109,12 @@ const productos = [
     color: "Blue Wash",
     image:
       "https://topitop.vtexassets.com/arquivos/ids/387052/3093189_1.jpg?v=638870308127500000",
+    images: [
+      "https://topitop.vtexassets.com/arquivos/ids/387052/3093189_1.jpg?v=638870308127500000",
+      "https://topitop.vtexassets.com/arquivos/ids/387053/3093189_2.jpg?v=638870308127600000",
+      "https://topitop.vtexassets.com/arquivos/ids/387054/3093189_3.jpg?v=638870308127700000",
+      "https://topitop.vtexassets.com/arquivos/ids/387055/3093189_4.jpg?v=638870308127800000"
+    ],
     descripcion: {
       resumen:
         "Vestido en estilo denim blue wash con corte juvenil, perfecto para combinaciones casuales.",
@@ -118,6 +142,12 @@ const productos = [
     color: "Plomo Intenso",
     image:
       "https://topitop.vtexassets.com/arquivos/ids/387088/3100904_1.jpg?v=638870312053070000",
+    images: [
+      "https://topitop.vtexassets.com/arquivos/ids/387088/3100904_1.jpg?v=638870312053070000",
+      "https://topitop.vtexassets.com/arquivos/ids/387089/3100904_2.jpg?v=638870312053170000",
+      "https://topitop.vtexassets.com/arquivos/ids/387090/3100904_3.jpg?v=638870312053270000",
+      "https://topitop.vtexassets.com/arquivos/ids/387091/3100904_4.jpg?v=638870312053370000"
+    ],
     descripcion: {
       resumen:
         "Casaca robusta en color plomo, con diseño juvenil y funcional, ideal para el día a día activo.",
@@ -145,6 +175,12 @@ const productos = [
     color: "Rosado",
     image:
       "https://topitop.vtexassets.com/arquivos/ids/386469/3093647_1.jpg?v=638853506702470000",
+    images: [
+      "https://topitop.vtexassets.com/arquivos/ids/386469/3093647_1.jpg?v=638853506702470000",
+      "https://topitop.vtexassets.com/arquivos/ids/386470/3093647_2.jpg?v=638853506702570000",
+      "https://topitop.vtexassets.com/arquivos/ids/386471/3093647_3.jpg?v=638853506702670000",
+      "https://topitop.vtexassets.com/arquivos/ids/386472/3093647_4.jpg?v=638853506702770000"
+    ],
     descripcion: {
       resumen:
         "Cardigan suave en color rosado, ideal para añadir un toque acogedor y femenino al outfit.",
@@ -172,6 +208,12 @@ const productos = [
     color: "Azul",
     image:
       "https://topitop.vtexassets.com/arquivos/ids/386473/3109200_1.jpg?v=638853507178230000",
+    images: [
+      "https://topitop.vtexassets.com/arquivos/ids/386473/3109200_1.jpg?v=638853507178230000",
+      "https://topitop.vtexassets.com/arquivos/ids/386474/3109200_2.jpg?v=638853507178330000",
+      "https://topitop.vtexassets.com/arquivos/ids/386475/3109200_3.jpg?v=638853507178430000",
+      "https://topitop.vtexassets.com/arquivos/ids/386476/3109200_4.jpg?v=638853507178530000"
+    ],
     descripcion: {
       resumen:
         "Jean en lavado claro con corte clásico y elasticidad, para mayor libertad y estilo.",
@@ -199,6 +241,12 @@ const productos = [
     color: "Aqua",
     image:
       "https://topitop.vtexassets.com/arquivos/ids/386507/2003582_1.jpg?v=638854381115770000",
+    images: [
+      "https://topitop.vtexassets.com/arquivos/ids/386507/2003582_1.jpg?v=638854381115770000",
+      "https://topitop.vtexassets.com/arquivos/ids/386508/2003582_2.jpg?v=638854381115870000",
+      "https://topitop.vtexassets.com/arquivos/ids/386509/2003582_3.jpg?v=638854381115970000",
+      "https://topitop.vtexassets.com/arquivos/ids/386510/2003582_4.jpg?v=638854381116070000"
+    ],
     descripcion: {
       resumen:
         "Casaca infantil en tono aqua, ideal para combinar y proteger en climas templados.",

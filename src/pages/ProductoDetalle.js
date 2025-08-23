@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import productosHombres from "../data/productosHombres";
 import productosMujeres from "../data/productosMujeres";
@@ -19,6 +19,38 @@ function ProductoDetalle() {
   const [cantidad, setCantidad] = useState(1);
   const [tallaSeleccionada, setTallaSeleccionada] = useState(producto?.sizes?.[0] ?? "");
 
+  // Usa el array de imágenes o solo la principal si no existe
+  const imagenes = producto.images && producto.images.length > 0
+    ? producto.images
+    : [producto.image];
+
+  const [indiceImagen, setIndiceImagen] = useState(0);
+
+  // --- Carrusel automático ---
+  useEffect(() => {
+    if (imagenes.length <= 1) return; // No auto-carrusel si solo hay una imagen
+    const timer = setTimeout(() => {
+      setIndiceImagen((prev) => (prev === imagenes.length - 1 ? 0 : prev + 1));
+    }, 3500); // 4 segundos
+    return () => clearTimeout(timer);
+  }, [indiceImagen, imagenes.length]);
+  // ---------------------------
+
+  const handlePrev = () => {
+    setIndiceImagen((prev) => (prev === 0 ? imagenes.length - 1 : prev - 1));
+  };
+
+  const handleNext = () => {
+    setIndiceImagen((prev) => (prev === imagenes.length - 1 ? 0 : prev + 1));
+  };
+
+  const [toast, setToast] = useState({ show: false, message: "" });
+
+  const showToast = (message) => {
+    setToast({ show: true, message });
+    setTimeout(() => setToast({ show: false, message: "" }), 2200);
+  };
+
   if (!producto) {
     return (
       <div className="container py-5 text-center">
@@ -29,7 +61,7 @@ function ProductoDetalle() {
 
   const handleAgregarAlCarrito = () => {
     if (!tallaSeleccionada) {
-      alert("Selecciona una talla antes de agregar al carrito.");
+      showToast("Selecciona una talla antes de agregar al carrito.");
       return;
     }
     const item = {
@@ -37,20 +69,68 @@ function ProductoDetalle() {
       name: producto.name,
       price: producto.price,
       image: producto.image,
-      talla: tallaSeleccionada, // Correcto
-      cantidad: cantidad,       // Correcto
+      talla: tallaSeleccionada,
+      cantidad: cantidad,
       color: producto.color,
       descripcion: producto.descripcion,
     };
     addToCart(item);
-    alert(`${cantidad} x "${producto.name}" (Talla ${tallaSeleccionada}) agregado al carrito.`);
+    showToast(
+      `${cantidad} x "${producto.name}" (Talla ${tallaSeleccionada}) agregado al carrito.`
+    );
   };
 
   return (
     <div className="container py-5">
       <div className="row g-4 align-items-start">
         <div className="col-md-6">
-          <img src={producto.image} alt={producto.name} className="img-fluid rounded shadow-sm" />
+          <div className="carousel-producto position-relative mb-3">
+            <img
+              src={imagenes[indiceImagen]}
+              alt={producto.name}
+              className="img-fluid rounded shadow-sm"
+              style={{
+                width: "100%",
+                height: 680, // <-- Cambia este valor para más alto
+                objectFit: "contain",
+                background: "#F3F3F3",
+                display: "block",
+              }}
+            />
+            {imagenes.length > 1 && (
+              <>
+                <button
+                  className="carousel-btn carousel-btn-left"
+                  onClick={handlePrev}
+                  aria-label="Anterior"
+                  type="button"
+                >
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                    <polyline points="15 18 9 12 15 6" />
+                  </svg>
+                </button>
+                <button
+                  className="carousel-btn carousel-btn-right"
+                  onClick={handleNext}
+                  aria-label="Siguiente"
+                  type="button"
+                >
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                    <polyline points="9 6 15 12 9 18" />
+                  </svg>
+                </button>
+                <div className="carousel-indicators">
+                  {imagenes.map((_, idx) => (
+                    <span
+                      key={idx}
+                      className={`carousel-dot${idx === indiceImagen ? " active" : ""}`}
+                      onClick={() => setIndiceImagen(idx)}
+                    />
+                  ))}
+                </div>
+              </>
+            )}
+          </div>
         </div>
         <div className="col-md-6">
           <h2 className="mb-3">{producto.name}</h2>
@@ -114,6 +194,30 @@ function ProductoDetalle() {
           </div>
         </div>
       </div>
+
+      {toast.show && (
+        <div
+          style={{
+            position: "fixed",
+            bottom: 32, // <-- Cambia aquí
+            right: 32,  // <-- Cambia aquí
+            zIndex: 2000,
+            background: "#222",
+            color: "#fff",
+            padding: "1rem 1.5rem",
+            borderRadius: 10,
+            boxShadow: "0 4px 16px rgba(0,0,0,0.13)",
+            fontWeight: 500,
+            fontSize: 16,
+            minWidth: 220,
+            textAlign: "center",
+            opacity: toast.show ? 1 : 0,
+            transition: "opacity 0.3s"
+          }}
+        >
+          {toast.message}
+        </div>
+      )}
     </div>
   );
 }

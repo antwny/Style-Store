@@ -1,7 +1,7 @@
 // productosMujer.js
 const productos = [
   {
-    id: 101, // Cambiado de 9 a 101
+    id: 101,
     name: "Vestido Mujer Martina Print",
     price: 43.96,
     oldPrice: 109.9,
@@ -10,6 +10,12 @@ const productos = [
     color: "Rosado Agua",
     image:
       "https://topitop.vtexassets.com/arquivos/ids/373227/2052261_1.jpg?v=638690081663830000",
+    images: [
+      "https://topitop.vtexassets.com/arquivos/ids/373228/2052261_2.jpg?v=638690081699300000",
+      "https://topitop.vtexassets.com/arquivos/ids/373229/2052261_3.jpg?v=638690081736170000",
+      "https://topitop.vtexassets.com/arquivos/ids/373230/2052261_4.jpg?v=638690081772400000",
+      "https://topitop.vtexassets.com/arquivos/ids/373227/2052261_1.jpg?v=638690081663830000"
+    ],
     descripcion: {
       resumen:
         "Vestido ligero con estampado floral, ideal para días soleados. Diseño fresco y femenino.",
@@ -28,7 +34,7 @@ const productos = [
     },
   },
   {
-    id: 102, // Cambiado de 2 a 102
+    id: 102,
     name: "Casaca Mujer Daroy",
     price: 91.96,
     oldPrice: 229.9,
@@ -37,6 +43,12 @@ const productos = [
     color: "Coco",
     image:
       "https://topitop.vtexassets.com/arquivos/ids/381267/3092347_1.jpg?v=638793216304270000",
+    images: [
+      "https://topitop.vtexassets.com/arquivos/ids/381267/3092347_1.jpg?v=638793216304270000",
+      "https://topitop.vtexassets.com/arquivos/ids/381268/3092347_2.jpg?v=638793216304370000",
+      "https://topitop.vtexassets.com/arquivos/ids/381269/3092347_3.jpg?v=638793216304470000",
+      "https://topitop.vtexassets.com/arquivos/ids/381270/3092347_4.jpg?v=638793216304570000"
+    ],
     descripcion: {
       resumen:
         "Casaca acolchada con capucha desmontable y cierre frontal. Perfecta para climas fríos.",
@@ -55,7 +67,7 @@ const productos = [
     },
   },
   {
-    id: 103, // Cambiado de 3 a 103
+    id: 103,
     name: "Falda Short Mujer Fan",
     price: 39.96,
     oldPrice: 99.9,
@@ -64,6 +76,12 @@ const productos = [
     color: "Negro",
     image:
       "https://topitop.vtexassets.com/arquivos/ids/381227/3095159_1.jpg?v=638793211547400000",
+    images: [
+      "https://topitop.vtexassets.com/arquivos/ids/381227/3095159_1.jpg?v=638793211547400000",
+      "https://topitop.vtexassets.com/arquivos/ids/381228/3095159_2.jpg?v=638793211547500000",
+      "https://topitop.vtexassets.com/arquivos/ids/381229/3095159_3.jpg?v=638793211547600000",
+      "https://topitop.vtexassets.com/arquivos/ids/381230/3095159_4.jpg?v=638793211547700000"
+    ],
     descripcion: {
       resumen:
         "Falda con short interno para mayor comodidad. Diseño juvenil y versátil.",
@@ -82,7 +100,7 @@ const productos = [
     },
   },
   {
-    id: 104, // Cambiado de 4 a 104
+    id: 104,
     name: "Casaca Mujer Eru",
     price: 91.96,
     oldPrice: 229.9,
@@ -91,6 +109,12 @@ const productos = [
     color: "Beige",
     image:
       "https://topitop.vtexassets.com/arquivos/ids/387285/3095361_1.jpg?v=638873484598630000",
+    images: [
+      "https://topitop.vtexassets.com/arquivos/ids/387285/3095361_1.jpg?v=638873484598630000",
+      "https://topitop.vtexassets.com/arquivos/ids/387286/3095361_2.jpg?v=638873484598730000",
+      "https://topitop.vtexassets.com/arquivos/ids/387287/3095361_3.jpg?v=638873484598830000",
+      "https://topitop.vtexassets.com/arquivos/ids/387288/3095361_4.jpg?v=638873484598930000"
+    ],
     descripcion: {
       resumen:
         "Casaca bomber con detalles en rib y cierre metálico. Estilo urbano y moderno.",
@@ -109,7 +133,7 @@ const productos = [
     },
   },
   {
-    id: 105, // Cambiado de 5 a 105
+    id: 105,
     name: "Jean Mujer Zara Total Dirty",
     price: 87.95,
     oldPrice: 159.9,
@@ -118,6 +142,12 @@ const productos = [
     color: "Stone",
     image:
       "https://topitop.vtexassets.com/arquivos/ids/387368/3151866_1.jpg?v=638887973312970000",
+    images: [
+      "https://topitop.vtexassets.com/arquivos/ids/387368/3151866_1.jpg?v=638887973312970000",
+      "https://topitop.vtexassets.com/arquivos/ids/387369/3151866_2.jpg?v=638887973313070000",
+      "https://topitop.vtexassets.com/arquivos/ids/387370/3151866_3.jpg?v=638887973313170000",
+      "https://topitop.vtexassets.com/arquivos/ids/387371/3151866_4.jpg?v=638887973313270000"
+    ],
     descripcion: {
       resumen:
         "Jean skinny fit con efecto desgastado. Ideal para un look moderno y casual.",
@@ -136,7 +166,7 @@ const productos = [
     },
   },
   {
-    id: 106, // Cambiado de 6 a 106
+    id: 106,
     name: "Chompa Mujer Alto Niquel Poly Htr",
     price: 39.96,
     oldPrice: 99.9,
@@ -145,6 +175,12 @@ const productos = [
     color: "Gris",
     image:
       "https://topitop.vtexassets.com/arquivos/ids/384530/3115616_1.jpg?v=638816526564430000",
+    images: [
+      "https://topitop.vtexassets.com/arquivos/ids/384530/3115616_1.jpg?v=638816526564430000",
+      "https://topitop.vtexassets.com/arquivos/ids/384531/3115616_2.jpg?v=638816526564530000",
+      "https://topitop.vtexassets.com/arquivos/ids/384532/3115616_3.jpg?v=638816526564630000",
+      "https://topitop.vtexassets.com/arquivos/ids/384533/3115616_4.jpg?v=638816526564730000"
+    ],
     descripcion: {
       resumen:
         "Chompa ligera de cuello redondo y textura jaspeada. Cómoda y versátil.",
@@ -163,7 +199,7 @@ const productos = [
     },
   },
   {
-    id: 107, // Cambiado de 7 a 107
+    id: 107,
     name: "Jean Mujer Yildaz",
     price: 87.95,
     oldPrice: 159.9,
@@ -172,6 +208,12 @@ const productos = [
     color: "Azul",
     image:
       "https://topitop.vtexassets.com/arquivos/ids/387380/3148383_1.jpg?v=638887974655200000",
+    images: [
+      "https://topitop.vtexassets.com/arquivos/ids/387380/3148383_1.jpg?v=638887974655200000",
+      "https://topitop.vtexassets.com/arquivos/ids/387381/3148383_2.jpg?v=638887974655300000",
+      "https://topitop.vtexassets.com/arquivos/ids/387382/3148383_3.jpg?v=638887974655400000",
+      "https://topitop.vtexassets.com/arquivos/ids/387383/3148383_4.jpg?v=638887974655500000"
+    ],
     descripcion: {
       resumen:
         "Jean recto con lavado sutil y tiro alto. Clásico y fácil de combinar.",
@@ -190,7 +232,7 @@ const productos = [
     },
   },
   {
-    id: 108, // Cambiado de 8 a 108
+    id: 108,
     name: "Casaca Mujer Fernanda",
     price: 59.96,
     oldPrice: 149.9,
@@ -199,6 +241,12 @@ const productos = [
     color: "Negro",
     image:
       "https://topitop.vtexassets.com/arquivos/ids/381417/3093772_1.jpg?v=638793751568900000",
+    images: [
+      "https://topitop.vtexassets.com/arquivos/ids/381417/3093772_1.jpg?v=638793751568900000",
+      "https://topitop.vtexassets.com/arquivos/ids/381418/3093772_2.jpg?v=638793751569000000",
+      "https://topitop.vtexassets.com/arquivos/ids/381419/3093772_3.jpg?v=638793751569100000",
+      "https://topitop.vtexassets.com/arquivos/ids/381420/3093772_4.jpg?v=638793751569200000"
+    ],
     descripcion: {
       resumen:
         "Casaca larga con cinturón y solapas. Ideal para un look elegante en climas fríos.",
