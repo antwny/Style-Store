@@ -15,13 +15,37 @@ const allProducts = [
   ...productosInfantil,
 ];
 
+function normalize(str) {
+  return str
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, ""); // quita tildes
+}
+
+function getVariantes(termino) {
+  // Si termina en 's', agrega la versión sin 's' y viceversa
+  const variantes = [termino];
+  if (termino.endsWith("s")) {
+    variantes.push(termino.slice(0, -1));
+  } else {
+    variantes.push(termino + "s");
+  }
+  return variantes;
+}
+
 function Busqueda() {
   const query = useQuery();
   const termino = query.get("q") || "";
+  const variantes = getVariantes(normalize(termino));
 
-  const resultados = allProducts.filter((p) =>
-    p.name.toLowerCase().includes(termino.toLowerCase())
-  );
+  const resultados = allProducts.filter((p) => {
+    const nombre = normalize(p.name);
+    const clase = normalize(p.descripcion?.detalles?.clase || "");
+    // Coincidencia en nombre o clase, en singular o plural
+    return variantes.some(
+      (v) => nombre.includes(v) || clase.includes(v)
+    );
+  });
 
   return (
     <div className="home-container">
