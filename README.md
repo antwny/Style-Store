@@ -11,4 +11,4 @@ Proyecto SPA con React para Cibertec | Este sitio web es una tienda online de ro
 
 ## 🖥️ Capturas de Pantalla
 ### Inicio
-![Homepage](./assets/screenshots/homepage.png)
+![Homepage](./src/assets/screenshots/homepage.png)
