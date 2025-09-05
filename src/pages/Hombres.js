@@ -1,8 +1,8 @@
 // src/pages/Hombres.jsx
 import React from "react";
-import "../styles/Hombres.css"; // Asegúrate de tener este CSS actualizado
+import "../styles/Hombres.css"; 
 import ProductCard from "../components/ProductCard";
-import "../styles/ProductCard.css"; // Asegúrate de tener este CSS actualizado
+import "../styles/ProductCard.css"; 
 import productos from "../data/productosHombres";
 function Hombres() {
   return (

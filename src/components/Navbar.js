@@ -10,7 +10,6 @@ function Navbar() {
   const [busqueda, setBusqueda] = useState("");
   const navigate = useNavigate();
 
-  // Asegura que siempre sea un número válido
   const safeTotalItems = isNaN(totalItems) ? 0 : totalItems;
 
   const handleSubmit = (e) => {
@@ -96,7 +95,6 @@ function Navbar() {
             </span>
           </form>
 
-          {/* 🔥 Carrito corregido con /cart */}
           <Link
             to="/cart"
             className="position-relative d-inline-block"

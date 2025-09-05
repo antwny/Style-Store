@@ -12,7 +12,7 @@ function Home() {
 
   const products = [
     {
-      id: 3, // <-- Agrega el id correcto según tu data
+      id: 3,
       name: "Polera Hombre Core Negro",
       price: 49.95,
       oldPrice: 99,
@@ -84,7 +84,7 @@ function Home() {
         colorFondo="#000000ff"
         imagen={ruta}
         botonTexto="Ver ofertas"
-        onBotonClick={() => navigate("/hombres")} // <-- Cambia esto
+        onBotonClick={() => navigate("/hombres")} 
       />
       <CategorySection />
 

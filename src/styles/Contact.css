@@ -3,13 +3,12 @@
   align-items: stretch;
   min-height: calc(
     100vh - alturaNavbar - alturaFooter
-  ); /* Ajusta según tu layout */
+  ); 
   background-color: #f8f8f8;
   padding-right: 4.5rem;
   gap: 2rem;
 }
 
-/* Imagen a la izquierda, ocupa todo el alto disponible */
 .contact-image {
   flex: 1;
   display: flex;
@@ -23,7 +22,6 @@
   object-fit: cover;
 }
 
-/* Formulario centrado y moderno */
 .contact-form {
   flex: 1;
   max-width: 1000px;

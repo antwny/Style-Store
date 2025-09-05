@@ -19,7 +19,6 @@ function ProductoDetalle() {
   const [cantidad, setCantidad] = useState(1);
   const [tallaSeleccionada, setTallaSeleccionada] = useState(producto?.sizes?.[0] ?? "");
 
-  // Usa el array de imágenes o solo la principal si no existe
   const imagenes = producto.images && producto.images.length > 0
     ? producto.images
     : [producto.image];
@@ -91,7 +90,7 @@ function ProductoDetalle() {
               className="img-fluid rounded shadow-sm"
               style={{
                 width: "100%",
-                height: 680, // <-- Cambia este valor para más alto
+                height: 680, 
                 objectFit: "contain",
                 background: "#F3F3F3",
                 display: "block",
@@ -199,8 +198,8 @@ function ProductoDetalle() {
         <div
           style={{
             position: "fixed",
-            bottom: 32, // <-- Cambia aquí
-            right: 32,  // <-- Cambia aquí
+            bottom: 32, 
+            right: 32,  
             zIndex: 2000,
             background: "#222",
             color: "#fff",

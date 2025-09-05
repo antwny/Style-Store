@@ -9,14 +9,13 @@ import Mujeres from "./pages/Mujeres";
 import Infantil from "./pages/Infantil";
 import ProductoDetalle from "./pages/ProductoDetalle";
 import ScrollToTop from "./components/ScrollToTop";
-import Cart from "./pages/Cart"; 
+import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
 import Busqueda from "./pages/Busqueda";
 
 function App() {
   return (
     <>
-      {/* ScrollToTop debe estar DENTRO del BrowserRouter */}
       <ScrollToTop />
 
       <Navbar />
@@ -28,7 +27,7 @@ function App() {
         <Route path="/infantil" element={<Infantil />} />
         <Route path="/producto/:id" element={<ProductoDetalle />} />
         <Route path="/cart" element={<Cart />} />
-        <Route path="/carrito" element={<Cart />} /> {/* Soporte para /carrito */}
+        <Route path="/carrito" element={<Cart />} />{" "}
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/buscar" element={<Busqueda />} />
       </Routes>

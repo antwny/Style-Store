@@ -57,7 +57,6 @@ const Checkout = () => {
     <div className="cart-container">
       <h2 className="cart-title">Finalizar compra</h2>
       <div className="checkout-flex">
-        {/* Resumen del pedido con imágenes */}
         <div className="checkout-summary">
           <h4>Resumen del pedido</h4>
           <ul>
