@@ -21,13 +21,13 @@ cd Style-Store
 # Instalar dependencias
 npm install
 # Inicia la aplicación:
-npm run dev
+npm start
 ```
 ## ✉️ Contacto
 
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@antwny)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/antw.ny/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luis-antony-atalaya-benites-b2b16b1ab/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://pe.linkedin.com/in/antony-a-benites-b2b16b1ab)
 
 ⭐ ¡Si te gusta el proyecto, déjale una estrella en GitHub!
 
