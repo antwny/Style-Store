@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/antwny/Style-Store/static/css/main.ad1fd4cf.css",
+    "main.js": "/antwny/Style-Store/static/js/main.a1e220ca.js",
+    "static/js/453.464e9640.chunk.js": "/antwny/Style-Store/static/js/453.464e9640.chunk.js",
+    "index.html": "/antwny/Style-Store/index.html",
+    "main.ad1fd4cf.css.map": "/antwny/Style-Store/static/css/main.ad1fd4cf.css.map",
+    "main.a1e220ca.js.map": "/antwny/Style-Store/static/js/main.a1e220ca.js.map",
+    "453.464e9640.chunk.js.map": "/antwny/Style-Store/static/js/453.464e9640.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad1fd4cf.css",
+    "static/js/main.a1e220ca.js"
+  ]
+}
