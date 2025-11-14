@@ -9,7 +9,7 @@ function Hombres() {
     <div className="hombres-page">
       <div className="banner-hombres">
         <img
-          src="https://topitop.vtexassets.com/assets/vtex.file-manager-graphql/images/f5e9cc42-0c58-46f1-b0e0-ff00e870d64f___1ca792e01845d6a502b5e0412b09e723.png"
+          src="/Style-Store/img/banners/hombre.png"
           alt="Banner Hombres"
           className="banner-image"
         />
