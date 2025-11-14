@@ -7,13 +7,12 @@ const productos = [
     discount: 40,
     sizes: ["S", "M", "L"],
     color: "Beige",
-    image:
-      "https://topitop.vtexassets.com/arquivos/ids/387965/3111954_1.jpg?v=638901348304930000",
+    image: "/Style-Store/img/products/casaca_aiden_1.png",
     images: [
-      "https://topitop.vtexassets.com/arquivos/ids/387966/3111954_2.jpg?v=638901348310270000",
-      "https://topitop.vtexassets.com/arquivos/ids/387967/3111954_3.jpg?v=638901348314400000",
-      "https://topitop.vtexassets.com/arquivos/ids/387968/3111954_4.jpg?v=638901348318470000",
-      "https://topitop.vtexassets.com/arquivos/ids/387965/3111954_1.jpg?v=638901348304930000",
+      "/Style-Store/img/products/casaca_aiden_1.png",
+      "/Style-Store/img/products/casaca_aiden_2.png",
+      "/Style-Store/img/products/casaca_aiden_3.png",
+      "/Style-Store/img/products/casaca_aiden_4.png",
     ],
     descripcion: {
       resumen:
@@ -40,13 +39,12 @@ const productos = [
     discount: 60,
     sizes: ["S", "M", "L", "XL"],
     color: "Verde Militar",
-    image:
-      "https://topitop.vtexassets.com/arquivos/ids/344018-500-auto?v=638449833623900000",
+    image: "/Style-Store/img/products/jogger_marco_verdemilitar_1.png",
     images: [
-      "https://topitop.vtexassets.com/arquivos/ids/344018-500-auto?v=638449833623900000",
-      "https://topitop.vtexassets.com/arquivos/ids/344019-500-auto?v=638449833624000000",
-      "https://topitop.vtexassets.com/arquivos/ids/344020-500-auto?v=638449833624100000",
-      "https://topitop.vtexassets.com/arquivos/ids/344021-500-auto?v=638449833624200000",
+      "/Style-Store/img/products/jogger_marco_verdemilitar_1.png",
+      "/Style-Store/img/products/jogger_marco_verdemilitar_2.png",
+      "/Style-Store/img/products/jogger_marco_verdemilitar_3.png",
+      "/Style-Store/img/products/jogger_marco_verdemilitar_4.png",
     ],
     descripcion: {
       resumen:
@@ -73,13 +71,12 @@ const productos = [
     discount: 39,
     sizes: ["S", "M", "L", "XL"],
     color: "Negro",
-    image:
-      "https://topitop.vtexassets.com/arquivos/ids/366519/1687364_1.jpg?v=638630743888200000",
+    image: "/Style-Store/img/products/polera_core_1.png",
     images: [
-      "https://topitop.vtexassets.com/arquivos/ids/366519/1687364_1.jpg?v=638630743888200000",
-      "https://topitop.vtexassets.com/arquivos/ids/366520/1687364_2.jpg?v=638630743888300000",
-      "https://topitop.vtexassets.com/arquivos/ids/366521/1687364_3.jpg?v=638630743888400000",
-      "https://topitop.vtexassets.com/arquivos/ids/366522/1687364_4.jpg?v=638630743888500000",
+      "/Style-Store/img/products/polera_core_1.png",
+      "/Style-Store/img/products/polera_core_2.png",
+      "/Style-Store/img/products/polera_core_3.png",
+      "/Style-Store/img/products/polera_core_4.png",
     ],
     descripcion: {
       resumen:
@@ -106,13 +103,12 @@ const productos = [
     discount: 39,
     sizes: ["S", "M", "L", "XL"],
     color: "Negro",
-    image:
-      "https://topitop.vtexassets.com/arquivos/ids/387324/3141954_1.jpg?v=638887968182270000",
+    image: "/Style-Store/img/products/camisa_thomas_1.png",
     images: [
-      "https://topitop.vtexassets.com/arquivos/ids/387324/3141954_1.jpg?v=638887968182270000",
-      "https://topitop.vtexassets.com/arquivos/ids/387325/3141954_2.jpg?v=638887968182370000",
-      "https://topitop.vtexassets.com/arquivos/ids/387326/3141954_3.jpg?v=638887968182470000",
-      "https://topitop.vtexassets.com/arquivos/ids/387327/3141954_4.jpg?v=638887968182570000",
+      "/Style-Store/img/products/camisa_thomas_1.png",
+      "/Style-Store/img/products/camisa_thomas_2.png",
+      "/Style-Store/img/products/camisa_thomas_3.png",
+      "/Style-Store/img/products/camisa_thomas_4.png",
     ],
     descripcion: {
       resumen:
@@ -139,13 +135,12 @@ const productos = [
     discount: 22,
     sizes: ["S", "M", "L", "XL"],
     color: "Blanco",
-    image:
-      "https://topitop.vtexassets.com/arquivos/ids/294385/1682195_1.jpg?v=638265194837100000",
+    image: "/Style-Store/img/products/polo_jose_core_1.png",
     images: [
-      "https://topitop.vtexassets.com/arquivos/ids/294385/1682195_1.jpg?v=638265194837100000",
-      "https://topitop.vtexassets.com/arquivos/ids/294386/1682195_2.jpg?v=638265194837200000",
-      "https://topitop.vtexassets.com/arquivos/ids/294387/1682195_3.jpg?v=638265194837300000",
-      "https://topitop.vtexassets.com/arquivos/ids/294388/1682195_4.jpg?v=638265194837400000",
+      "/Style-Store/img/products/polo_jose_core_1.png",
+      "/Style-Store/img/products/polo_jose_core_2.png",
+      "/Style-Store/img/products/polo_jose_core_3.png",
+      "/Style-Store/img/products/polo_jose_core_4.png",
     ],
     descripcion: {
       resumen:
@@ -172,13 +167,12 @@ const productos = [
     discount: 60,
     sizes: ["S", "M", "L", "XL"],
     color: "Verde Salvia",
-    image:
-      "https://topitop.vtexassets.com/arquivos/ids/383795/3109871_1.jpg?v=638816355436370000",
+    image: "/Style-Store/img/products/casaca_bose_1.png",
     images: [
-      "https://topitop.vtexassets.com/arquivos/ids/383795/3109871_1.jpg?v=638816355436370000",
-      "https://topitop.vtexassets.com/arquivos/ids/383796/3109871_2.jpg?v=638816355436470000",
-      "https://topitop.vtexassets.com/arquivos/ids/383797/3109871_3.jpg?v=638816355436570000",
-      "https://topitop.vtexassets.com/arquivos/ids/383798/3109871_4.jpg?v=638816355436670000",
+      "/Style-Store/img/products/casaca_bose_1.png",
+      "/Style-Store/img/products/casaca_bose_2.png",
+      "/Style-Store/img/products/casaca_bose_3.png",
+      "/Style-Store/img/products/casaca_bose_4.png",
     ],
     descripcion: {
       resumen:
@@ -205,13 +199,12 @@ const productos = [
     discount: 60,
     sizes: ["S", "M", "L", "XL"],
     color: "Gris Melange",
-    image:
-      "https://topitop.vtexassets.com/arquivos/ids/378436/2078335_1.jpg?v=638764046319330000",
+    image: "/Style-Store/img/products/polera_hawk_1.png",
     images: [
-      "https://topitop.vtexassets.com/arquivos/ids/378436/2078335_1.jpg?v=638764046319330000",
-      "https://topitop.vtexassets.com/arquivos/ids/378437/2078335_2.jpg?v=638764046319430000",
-      "https://topitop.vtexassets.com/arquivos/ids/378438/2078335_3.jpg?v=638764046319530000",
-      "https://topitop.vtexassets.com/arquivos/ids/378439/2078335_4.jpg?v=638764046319630000",
+      "/Style-Store/img/products/polera_hawk_1.png",
+      "/Style-Store/img/products/polera_hawk_2.png",
+      "/Style-Store/img/products/polera_hawk_3.png",
+      "/Style-Store/img/products/polera_hawk_4.png",
     ],
     descripcion: {
       resumen:
@@ -238,13 +231,12 @@ const productos = [
     discount: 30,
     sizes: ["S", "M", "L", "XL"],
     color: "Negro Jazpe",
-    image:
-      "https://topitop.vtexassets.com/arquivos/ids/386712/3112817_1.jpg?v=638870106205230000",
+    image: "/Style-Store/img/products/pantalon_bernardo_1.png",
     images: [
-      "https://topitop.vtexassets.com/arquivos/ids/386712/3112817_1.jpg?v=638870106205230000",
-      "https://topitop.vtexassets.com/arquivos/ids/386713/3112817_2.jpg?v=638870106205330000",
-      "https://topitop.vtexassets.com/arquivos/ids/386714/3112817_3.jpg?v=638870106205430000",
-      "https://topitop.vtexassets.com/arquivos/ids/386715/3112817_4.jpg?v=638870106205530000",
+      "/Style-Store/img/products/pantalon_bernardo_1.png",
+      "/Style-Store/img/products/pantalon_bernardo_2.png",
+      "/Style-Store/img/products/pantalon_bernardo_3.png",
+      "/Style-Store/img/products/pantalon_bernardo_4.png",
     ],
     descripcion: {
       resumen:
