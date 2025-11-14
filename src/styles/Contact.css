@@ -1,12 +1,11 @@
 .contact-container {
   display: flex;
   align-items: stretch;
-  min-height: calc(
-    100vh - alturaNavbar - alturaFooter
-  ); 
-  background-color: #f8f8f8;
-  padding-right: 4.5rem;
   gap: 2rem;
+  padding: 2rem;
+  background-color: #f8f8f8;
+  /* aprox. altura navbar + footer = 160px (ajusta si tienes valores específicos) */
+  min-height: calc(100vh - 160px);
 }
 
 .contact-image {
@@ -17,14 +16,17 @@
 }
 
 .contact-image img {
-  width: 92%;
+  width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 12px;
+  display: block;
 }
 
 .contact-form {
   flex: 1;
   max-width: 1000px;
+  width: 100%;
   margin: auto;
   background-color: #fff;
   padding: 2rem;
@@ -48,6 +50,7 @@
   border-radius: 8px;
   font-size: 1rem;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .contact-form button {
@@ -68,7 +71,81 @@
 .checkbox-container {
   display: flex;
   align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+}
 
-  gap: 0rem;
-  font-size: 0.9rem;
+/* --- Responsive: móviles y tablets --- */
+@media (max-width: 992px) {
+  .contact-container {
+    padding: 1.25rem;
+    gap: 1rem;
+  }
+
+  .contact-form {
+    padding: 1.25rem;
+    max-width: 800px;
+  }
+
+  .contact-image {
+    /* limitar altura para evitar que ocupe toda la pantalla */
+    min-height: 260px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* apilar: imagen arriba, formulario abajo */
+  .contact-container {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+    padding: 1rem;
+    min-height: auto;
+  }
+
+  .contact-image {
+    order: 1;
+    width: 100%;
+    min-height: 36vh;
+  }
+
+  .contact-image img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .contact-form {
+    order: 2;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+
+  .contact-form h2 {
+    font-size: 1.4rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.98rem;
+  }
+}
+
+/* Muy pequeño: ocultar imagen para priorizar el formulario si hace falta */
+@media (max-width: 420px) {
+  .contact-image {
+    display: none;
+  }
+
+  .contact-container {
+    padding: 0.75rem;
+    gap: 0.75rem;
+  }
+
+  .contact-form {
+    padding: 0.8rem;
+  }
 }

@@ -19,7 +19,7 @@ function Footer() {
             <li><Link to="/">Inicio</Link></li>
             <li><Link to="/hombres">Hombres</Link></li>
             <li><Link to="/mujeres">Mujeres</Link></li>
-            <li><Link to="/contacto">Contacto</Link></li>
+            <li><Link to="/contact">Contacto</Link></li>
             <li><Link to="/infantil">Infantil</Link></li>
           </ul>
         </div>

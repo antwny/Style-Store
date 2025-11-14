@@ -1,4 +1,33 @@
-.navbar {
+/* ...existing code... */
+
+.navbar-cart img {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+/* Asegura separación suficiente entre toggler y carrito en móvil */
+@media (max-width: 991.98px) {
+  .navbar .navbar-toggler {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
+
+  .navbar-cart {
+    margin-left: 0.5rem;
+    margin-right: 0.25rem;
+    z-index: 1100; /* por encima del collapse cuando está animando */
+  }
+}
+
+/* en escritorio el carrito queda alineado normalmente */
+@media (min-width: 992px) {
+  .navbar-cart {
+    margin-left: 0.75rem;
+  }
+}
+
+/* ...existing code... */.navbar {
   position: sticky; 
   top: 0;
   box-shadow: 0 0px 12px rgba(0, 0, 0, 0.9);
