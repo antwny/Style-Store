@@ -8,13 +8,12 @@ const productos = [
     discount: 60,
     sizes: ["S", "M", "L"],
     color: "Rosado Agua",
-    image:
-      "https://topitop.vtexassets.com/arquivos/ids/373227/2052261_1.jpg?v=638690081663830000",
+    image: "/Style-Store/img/products/vestido_martina_print_1.png",
     images: [
-      "https://topitop.vtexassets.com/arquivos/ids/373228/2052261_2.jpg?v=638690081699300000",
-      "https://topitop.vtexassets.com/arquivos/ids/373229/2052261_3.jpg?v=638690081736170000",
-      "https://topitop.vtexassets.com/arquivos/ids/373230/2052261_4.jpg?v=638690081772400000",
-      "https://topitop.vtexassets.com/arquivos/ids/373227/2052261_1.jpg?v=638690081663830000"
+      "/Style-Store/img/products/vestido_martina_print_2.png",
+      "/Style-Store/img/products/vestido_martina_print_3.png",
+      "/Style-Store/img/products/vestido_martina_print_4.png",
+      "/Style-Store/img/products/vestido_martina_print_1.png"
     ],
     descripcion: {
       resumen:
@@ -41,13 +40,12 @@ const productos = [
     discount: 60,
     sizes: ["S", "M", "L", "XL"],
     color: "Coco",
-    image:
-      "https://topitop.vtexassets.com/arquivos/ids/381267/3092347_1.jpg?v=638793216304270000",
+    image: "/Style-Store/img/products/casaca_daroy_1.png",
     images: [
-      "https://topitop.vtexassets.com/arquivos/ids/381267/3092347_1.jpg?v=638793216304270000",
-      "https://topitop.vtexassets.com/arquivos/ids/381268/3092347_2.jpg?v=638793216304370000",
-      "https://topitop.vtexassets.com/arquivos/ids/381269/3092347_3.jpg?v=638793216304470000",
-      "https://topitop.vtexassets.com/arquivos/ids/381270/3092347_4.jpg?v=638793216304570000"
+      "/Style-Store/img/products/casaca_daroy_1.png",
+      "/Style-Store/img/products/casaca_daroy_2.png",
+      "/Style-Store/img/products/casaca_daroy_3.png",
+      "/Style-Store/img/products/casaca_daroy_4.png"
     ],
     descripcion: {
       resumen:
@@ -74,13 +72,12 @@ const productos = [
     discount: 60,
     sizes: ["S", "M", "L", "XL"],
     color: "Negro",
-    image:
-      "https://topitop.vtexassets.com/arquivos/ids/381227/3095159_1.jpg?v=638793211547400000",
+    image: "/Style-Store/img/products/falda_short_fan_1.png",
     images: [
-      "https://topitop.vtexassets.com/arquivos/ids/381227/3095159_1.jpg?v=638793211547400000",
-      "https://topitop.vtexassets.com/arquivos/ids/381228/3095159_2.jpg?v=638793211547500000",
-      "https://topitop.vtexassets.com/arquivos/ids/381229/3095159_3.jpg?v=638793211547600000",
-      "https://topitop.vtexassets.com/arquivos/ids/381230/3095159_4.jpg?v=638793211547700000"
+      "/Style-Store/img/products/falda_short_fan_1.png",
+      "/Style-Store/img/products/falda_short_fan_2.png",
+      "/Style-Store/img/products/falda_short_fan_3.png",
+      "/Style-Store/img/products/falda_short_fan_4.png"
     ],
     descripcion: {
       resumen:
@@ -107,13 +104,12 @@ const productos = [
     discount: 60,
     sizes: ["S", "M", "L", "XL"],
     color: "Beige",
-    image:
-      "https://topitop.vtexassets.com/arquivos/ids/387285/3095361_1.jpg?v=638873484598630000",
+    image: "/Style-Store/img/products/casaca_eru_1.png",
     images: [
-      "https://topitop.vtexassets.com/arquivos/ids/387285/3095361_1.jpg?v=638873484598630000",
-      "https://topitop.vtexassets.com/arquivos/ids/387286/3095361_2.jpg?v=638873484598730000",
-      "https://topitop.vtexassets.com/arquivos/ids/387287/3095361_3.jpg?v=638873484598830000",
-      "https://topitop.vtexassets.com/arquivos/ids/387288/3095361_4.jpg?v=638873484598930000"
+      "/Style-Store/img/products/casaca_eru_1.png",
+      "/Style-Store/img/products/casaca_eru_2.png",
+      "/Style-Store/img/products/casaca_eru_3.png",
+      "/Style-Store/img/products/casaca_eru_4.png"
     ],
     descripcion: {
       resumen:
@@ -140,13 +136,12 @@ const productos = [
     discount: 45,
     sizes: ["S", "M", "L", "XL"],
     color: "Stone",
-    image:
-      "https://topitop.vtexassets.com/arquivos/ids/387368/3151866_1.jpg?v=638887973312970000",
+    image: "/Style-Store/img/products/jean_zara_dirty_1.png",
     images: [
-      "https://topitop.vtexassets.com/arquivos/ids/387368/3151866_1.jpg?v=638887973312970000",
-      "https://topitop.vtexassets.com/arquivos/ids/387369/3151866_2.jpg?v=638887973313070000",
-      "https://topitop.vtexassets.com/arquivos/ids/387370/3151866_3.jpg?v=638887973313170000",
-      "https://topitop.vtexassets.com/arquivos/ids/387371/3151866_4.jpg?v=638887973313270000"
+      "/Style-Store/img/products/jean_zara_dirty_1.png",
+      "/Style-Store/img/products/jean_zara_dirty_2.png",
+      "/Style-Store/img/products/jean_zara_dirty_3.png",
+      "/Style-Store/img/products/jean_zara_dirty_4.png"
     ],
     descripcion: {
       resumen:
@@ -173,13 +168,12 @@ const productos = [
     discount: 60,
     sizes: ["S", "M", "L", "XL"],
     color: "Gris",
-    image:
-      "https://topitop.vtexassets.com/arquivos/ids/384530/3115616_1.jpg?v=638816526564430000",
+    image: "/Style-Store/img/products/chompa_alto_niquel_1.png",
     images: [
-      "https://topitop.vtexassets.com/arquivos/ids/384530/3115616_1.jpg?v=638816526564430000",
-      "https://topitop.vtexassets.com/arquivos/ids/384531/3115616_2.jpg?v=638816526564530000",
-      "https://topitop.vtexassets.com/arquivos/ids/384532/3115616_3.jpg?v=638816526564630000",
-      "https://topitop.vtexassets.com/arquivos/ids/384533/3115616_4.jpg?v=638816526564730000"
+      "/Style-Store/img/products/chompa_alto_niquel_1.png",
+      "/Style-Store/img/products/chompa_alto_niquel_2.png",
+      "/Style-Store/img/products/chompa_alto_niquel_3.png",
+      "/Style-Store/img/products/chompa_alto_niquel_4.png"
     ],
     descripcion: {
       resumen:
@@ -206,13 +200,12 @@ const productos = [
     discount: 45,
     sizes: ["S", "M", "L", "XL"],
     color: "Azul",
-    image:
-      "https://topitop.vtexassets.com/arquivos/ids/387380/3148383_1.jpg?v=638887974655200000",
+    image: "/Style-Store/img/products/jean_yildaz_1.png",
     images: [
-      "https://topitop.vtexassets.com/arquivos/ids/387380/3148383_1.jpg?v=638887974655200000",
-      "https://topitop.vtexassets.com/arquivos/ids/387381/3148383_2.jpg?v=638887974655300000",
-      "https://topitop.vtexassets.com/arquivos/ids/387382/3148383_3.jpg?v=638887974655400000",
-      "https://topitop.vtexassets.com/arquivos/ids/387383/3148383_4.jpg?v=638887974655500000"
+      "/Style-Store/img/products/jean_yildaz_1.png",
+      "/Style-Store/img/products/jean_yildaz_2.png",
+      "/Style-Store/img/products/jean_yildaz_3.png",
+      "/Style-Store/img/products/jean_yildaz_4.png"
     ],
     descripcion: {
       resumen:
@@ -239,13 +232,12 @@ const productos = [
     discount: 60,
     sizes: ["S", "M", "L", "XL"],
     color: "Negro",
-    image:
-      "https://topitop.vtexassets.com/arquivos/ids/381417/3093772_1.jpg?v=638793751568900000",
+    image: "/Style-Store/img/products/casaca_fernanda_1.png",
     images: [
-      "https://topitop.vtexassets.com/arquivos/ids/381417/3093772_1.jpg?v=638793751568900000",
-      "https://topitop.vtexassets.com/arquivos/ids/381418/3093772_2.jpg?v=638793751569000000",
-      "https://topitop.vtexassets.com/arquivos/ids/381419/3093772_3.jpg?v=638793751569100000",
-      "https://topitop.vtexassets.com/arquivos/ids/381420/3093772_4.jpg?v=638793751569200000"
+      "/Style-Store/img/products/casaca_fernanda_1.png",
+      "/Style-Store/img/products/casaca_fernanda_2.png",
+      "/Style-Store/img/products/casaca_fernanda_3.png",
+      "/Style-Store/img/products/casaca_fernanda_4.png"
     ],
     descripcion: {
       resumen:

@@ -8,13 +8,12 @@ const productos = [
     discount: 60,
     sizes: ["4", "6", "8", "10"],
     color: "Beige",
-    image:
-      "https://topitop.vtexassets.com/arquivos/ids/364044/1998599_1.jpg?v=638572585776130000",
+    image: "/Style-Store/img/products/polo_mariamanda_1.png",
     images: [
-      "https://topitop.vtexassets.com/arquivos/ids/364045/1998599_2.jpg?v=638572585803400000",
-      "https://topitop.vtexassets.com/arquivos/ids/364046/1998599_3.jpg?v=638572585830600000",
-      "https://topitop.vtexassets.com/arquivos/ids/364047/1998599_4.jpg?v=638572585857400000",
-      "https://topitop.vtexassets.com/arquivos/ids/364044/1998599_1.jpg?v=638572585776130000"
+      "/Style-Store/img/products/polo_mariamanda_1.png",
+      "/Style-Store/img/products/polo_mariamanda_2.png",
+      "/Style-Store/img/products/polo_mariamanda_3.png",
+      "/Style-Store/img/products/polo_mariamanda_4.png"
     ],
     descripcion: {
       resumen:
@@ -41,13 +40,12 @@ const productos = [
     discount: 35,
     sizes: ["S", "M", "L", "XL"],
     color: "Rosado Chicle",
-    image:
-      "https://topitop.vtexassets.com/arquivos/ids/386515-500-auto?v=638854382024470000&width=500&height=auto&aspect=true",
+    image: "/Style-Store/img/products/polera_cayetana_1.png",
     images: [
-      "https://topitop.vtexassets.com/arquivos/ids/386515-500-auto?v=638854382024470000&width=500&height=auto&aspect=true",
-      "https://topitop.vtexassets.com/arquivos/ids/386516-500-auto?v=638854382024570000&width=500&height=auto&aspect=true",
-      "https://topitop.vtexassets.com/arquivos/ids/386517-500-auto?v=638854382024670000&width=500&height=auto&aspect=true",
-      "https://topitop.vtexassets.com/arquivos/ids/386518-500-auto?v=638854382024770000&width=500&height=auto&aspect=true"
+      "/Style-Store/img/products/polera_cayetana_1.png",
+      "/Style-Store/img/products/polera_cayetana_2.png",
+      "/Style-Store/img/products/polera_cayetana_3.png",
+      "/Style-Store/img/products/polera_cayetana_4.png"
     ],
     descripcion: {
       resumen:
@@ -74,13 +72,12 @@ const productos = [
     discount: 25,
     sizes: ["S", "M", "L", "XL"],
     color: "Aqua Pastel",
-    image:
-      "https://topitop.vtexassets.com/arquivos/ids/387229-500-auto?v=638873478388570000&width=500&height=auto&aspect=true",
+    image: "/Style-Store/img/products/casaca_alfredo_1.png",
     images: [
-      "https://topitop.vtexassets.com/arquivos/ids/387229-500-auto?v=638873478388570000&width=500&height=auto&aspect=true",
-      "https://topitop.vtexassets.com/arquivos/ids/387230-500-auto?v=638873478388670000&width=500&height=auto&aspect=true",
-      "https://topitop.vtexassets.com/arquivos/ids/387231-500-auto?v=638873478388770000&width=500&height=auto&aspect=true",
-      "https://topitop.vtexassets.com/arquivos/ids/387232-500-auto?v=638873478388870000&width=500&height=auto&aspect=true"
+      "/Style-Store/img/products/casaca_alfredo_1.png",
+      "/Style-Store/img/products/casaca_alfredo_2.png",
+      "/Style-Store/img/products/casaca_alfredo_3.png",
+      "/Style-Store/img/products/casaca_alfredo_4.png"
     ],
     descripcion: {
       resumen:
@@ -107,13 +104,12 @@ const productos = [
     discount: 45,
     sizes: ["S", "M", "L", "XL"],
     color: "Blue Wash",
-    image:
-      "https://topitop.vtexassets.com/arquivos/ids/387052/3093189_1.jpg?v=638870308127500000",
+    image: "/Style-Store/img/products/vestido_denim_violeta_1.png",
     images: [
-      "https://topitop.vtexassets.com/arquivos/ids/387052/3093189_1.jpg?v=638870308127500000",
-      "https://topitop.vtexassets.com/arquivos/ids/387053/3093189_2.jpg?v=638870308127600000",
-      "https://topitop.vtexassets.com/arquivos/ids/387054/3093189_3.jpg?v=638870308127700000",
-      "https://topitop.vtexassets.com/arquivos/ids/387055/3093189_4.jpg?v=638870308127800000"
+      "/Style-Store/img/products/vestido_denim_violeta_1.png",
+      "/Style-Store/img/products/vestido_denim_violeta_2.png",
+      "/Style-Store/img/products/vestido_denim_violeta_3.png",
+      "/Style-Store/img/products/vestido_denim_violeta_4.png"
     ],
     descripcion: {
       resumen:
@@ -140,13 +136,12 @@ const productos = [
     discount: 30,
     sizes: ["S", "M", "L", "XL"],
     color: "Plomo Intenso",
-    image:
-      "https://topitop.vtexassets.com/arquivos/ids/387088/3100904_1.jpg?v=638870312053070000",
+    image: "/Style-Store/img/products/casaca_gregor_1.png",
     images: [
-      "https://topitop.vtexassets.com/arquivos/ids/387088/3100904_1.jpg?v=638870312053070000",
-      "https://topitop.vtexassets.com/arquivos/ids/387089/3100904_2.jpg?v=638870312053170000",
-      "https://topitop.vtexassets.com/arquivos/ids/387090/3100904_3.jpg?v=638870312053270000",
-      "https://topitop.vtexassets.com/arquivos/ids/387091/3100904_4.jpg?v=638870312053370000"
+      "/Style-Store/img/products/casaca_gregor_1.png",
+      "/Style-Store/img/products/casaca_gregor_2.png",
+      "/Style-Store/img/products/casaca_gregor_3.png",
+      "/Style-Store/img/products/casaca_gregor_4.png"
     ],
     descripcion: {
       resumen:
@@ -173,13 +168,12 @@ const productos = [
     discount: 35,
     sizes: ["S", "M", "L", "XL"],
     color: "Rosado",
-    image:
-      "https://topitop.vtexassets.com/arquivos/ids/386469/3093647_1.jpg?v=638853506702470000",
+    image: "/Style-Store/img/products/cardigan_miriam_rosemen_1.png",
     images: [
-      "https://topitop.vtexassets.com/arquivos/ids/386469/3093647_1.jpg?v=638853506702470000",
-      "https://topitop.vtexassets.com/arquivos/ids/386470/3093647_2.jpg?v=638853506702570000",
-      "https://topitop.vtexassets.com/arquivos/ids/386471/3093647_3.jpg?v=638853506702670000",
-      "https://topitop.vtexassets.com/arquivos/ids/386472/3093647_4.jpg?v=638853506702770000"
+      "/Style-Store/img/products/cardigan_miriam_rosemen_1.png",
+      "/Style-Store/img/products/cardigan_miriam_rosemen_2.png",
+      "/Style-Store/img/products/cardigan_miriam_rosemen_3.png",
+      "/Style-Store/img/products/cardigan_miriam_rosemen_4.png"
     ],
     descripcion: {
       resumen:
@@ -206,13 +200,12 @@ const productos = [
     discount: 40,
     sizes: ["S", "M", "L", "XL"],
     color: "Azul",
-    image:
-      "https://topitop.vtexassets.com/arquivos/ids/386473/3109200_1.jpg?v=638853507178230000",
+    image: "/Style-Store/img/products/jean_mafer_light_wash_1.png",
     images: [
-      "https://topitop.vtexassets.com/arquivos/ids/386473/3109200_1.jpg?v=638853507178230000",
-      "https://topitop.vtexassets.com/arquivos/ids/386474/3109200_2.jpg?v=638853507178330000",
-      "https://topitop.vtexassets.com/arquivos/ids/386475/3109200_3.jpg?v=638853507178430000",
-      "https://topitop.vtexassets.com/arquivos/ids/386476/3109200_4.jpg?v=638853507178530000"
+      "/Style-Store/img/products/jean_mafer_light_wash_1.png",
+      "/Style-Store/img/products/jean_mafer_light_wash_2.png",
+      "/Style-Store/img/products/jean_mafer_light_wash_3.png",
+      "/Style-Store/img/products/jean_mafer_light_wash_4.png"
     ],
     descripcion: {
       resumen:
@@ -239,13 +232,12 @@ const productos = [
     discount: 40,
     sizes: ["S", "M", "L", "XL"],
     color: "Aqua",
-    image:
-      "https://topitop.vtexassets.com/arquivos/ids/386507/2003582_1.jpg?v=638854381115770000",
+    image: "/Style-Store/img/products/casaca_niña_isabel_1.png",
     images: [
-      "https://topitop.vtexassets.com/arquivos/ids/386507/2003582_1.jpg?v=638854381115770000",
-      "https://topitop.vtexassets.com/arquivos/ids/386508/2003582_2.jpg?v=638854381115870000",
-      "https://topitop.vtexassets.com/arquivos/ids/386509/2003582_3.jpg?v=638854381115970000",
-      "https://topitop.vtexassets.com/arquivos/ids/386510/2003582_4.jpg?v=638854381116070000"
+      "/Style-Store/img/products/casaca_niña_isabel_1.png",
+      "/Style-Store/img/products/casaca_niña_isabel_2.png",
+      "/Style-Store/img/products/casaca_niña_isabel_3.png",
+      "/Style-Store/img/products/casaca_niña_isabel_4.png"
     ],
     descripcion: {
       resumen:
