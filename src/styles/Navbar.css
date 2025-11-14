@@ -1,34 +1,8 @@
-/* ...existing code... */
-
-.navbar-cart img {
-  display: block;
-  width: 32px;
-  height: 32px;
-}
-
-/* Asegura separación suficiente entre toggler y carrito en móvil */
-@media (max-width: 991.98px) {
-  .navbar .navbar-toggler {
-    margin-left: 0.25rem;
-    margin-right: 0.25rem;
-  }
-
-  .navbar-cart {
-    margin-left: 0.5rem;
-    margin-right: 0.25rem;
-    z-index: 1100; /* por encima del collapse cuando está animando */
-  }
-}
-
-/* en escritorio el carrito queda alineado normalmente */
-@media (min-width: 992px) {
-  .navbar-cart {
-    margin-left: 0.75rem;
-  }
-}
-
-/* ...existing code... */.navbar {
-  position: sticky; 
+/* ===========================
+   Base navbar
+   =========================== */
+.navbar {
+  position: sticky;
   top: 0;
   box-shadow: 0 0px 12px rgba(0, 0, 0, 0.9);
   z-index: 1000;
@@ -36,13 +10,12 @@
   transition: box-shadow 0.3s ease;
 }
 
-/* Estilo para el logo */
+/* Logo */
 .style-logo {
   font-weight: bold;
   color: #000000;
   font-size: 1.5rem;
 }
-
 .store-logo {
   font-weight: bold;
   color: #555555;
@@ -50,37 +23,29 @@
   margin-left: 4px;
 }
 
-
+/* Nav links */
 .navbar .nav-link {
   font-weight: 600;
   color: #333333 !important;
 }
-
 .navbar .nav-link:hover {
   color: #000000 !important;
 }
 
-/* Botón de carrito */
-.btn-outline-dark {
-  border-color: #333333;
-  color: #333333;
-}
-
-.btn-outline-dark:hover {
-  background-color: #333333;
-  color: #ffffff;
-}
-
+/* Brand font */
 .navbar-brand {
   font-family: 'Montserrat', sans-serif;
 }
+
+/* ===========================
+   Searchbar
+   =========================== */
 .navbar-searchbar {
   position: relative;
   min-width: 200px;
   max-width: 320px;
   width: 100%;
 }
-
 .navbar-searchbar input[type="search"] {
   width: 100%;
   padding: 0.5rem 2.5rem 0.5rem 1rem;
@@ -92,14 +57,12 @@
   transition: border 0.2s, box-shadow 0.2s;
   box-shadow: 0 2px 8px rgba(34,34,34,0.04);
 }
-
 .navbar-searchbar input[type="search"]:focus {
   border: 1.5px solid #222;
   outline: none;
   background: #fff;
   box-shadow: 0 4px 16px rgba(34,34,34,0.08);
 }
-
 .navbar-searchbar .search-icon {
   position: absolute;
   right: 1rem;
@@ -108,4 +71,121 @@
   color: #888;
   font-size: 1.2rem;
   pointer-events: none;
+}
+
+/* ===========================
+   Layout helpers: center collapse & actions
+   =========================== */
+/* ensure collapse takes available space so actions stay right */
+.navbar-center {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+/* acciones (toggler + carrito) siempre a la derecha */
+.navbar-actions {
+  margin-left: auto; /* cambiado a auto para empujar el carrito a la derecha */
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* ===========================
+   Toggler
+   =========================== */
+/* esconder toggler en escritorio (estilo clásico bootstrap) */
+.navbar-toggler {
+  border: none;
+  background: transparent;
+  display: none; /* visible solo en mobile via media query */
+  margin-right: 0.5rem;
+  padding: 0.25rem;
+}
+
+/* barras del icono */
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 22px;
+  height: 2px;
+  background: #333;
+  position: relative;
+}
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 22px;
+  height: 2px;
+  background: #333;
+}
+.navbar-toggler-icon::before {
+  top: -6px;
+}
+.navbar-toggler-icon::after {
+  top: 6px;
+}
+
+/* ===========================
+   Carrito
+   =========================== */
+.navbar-cart {
+  z-index: 1100; /* arriba de collapse cuando aparece */
+  margin-left: 0.75rem;
+}
+.navbar-cart img {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+/* Botón estilo (si se usa) */
+.btn-outline-dark {
+  border-color: #333333;
+  color: #333333;
+}
+.btn-outline-dark:hover {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+/* ===========================
+   Responsive: consolidado
+   =========================== */
+@media (max-width: 991.98px) {
+  /* mostrar toggler sólo en pantallas pequeñas */
+  .navbar-toggler {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* espacio entre toggler y brand */
+  .navbar .navbar-toggler {
+    margin-left: 0.25rem;
+    margin-right: 0.5rem;
+  }
+
+  /* en móvil la collapse se apila debajo cuando se muestra */
+  .navbar-center {
+    flex-basis: 100%;
+    width: 100%;
+    margin-top: 0.75rem;
+  }
+
+  /* separación entre toggler y carrito en móvil */
+  .navbar-cart {
+    margin-left: 0.5rem;
+    margin-right: 0.25rem;
+  }
+}
+
+@media (min-width: 992px) {
+  /* en escritorio el carrito queda alineado a la derecha por la estructura flex */
+  .navbar-cart {
+    margin-left: 0.75rem; /* ya definido por defecto, repetido aquí para claridad */
+  }
 }

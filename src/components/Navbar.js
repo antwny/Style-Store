@@ -27,7 +27,19 @@ function Navbar() {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
-      <div className="container-fluid px-4 py-2 d-flex align-items-center justify-content-between">
+      <div className="container-fluid px-4 py-2 d-flex align-items-center">
+        {/* moved toggler to the left of the brand for mobile */}
+        <button
+          className={`navbar-toggler ${isOpen ? "" : "collapsed"}`}
+          type="button"
+          aria-controls="navbarContent"
+          aria-expanded={isOpen}
+          aria-label="Toggle navigation"
+          onClick={toggleMenu}
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+
         <Link
           className="navbar-brand d-flex align-items-center me-2"
           to="/"
@@ -37,52 +49,10 @@ function Navbar() {
           <span className="store-logo">Store</span>
         </Link>
 
-        {/* agrupador del toggler + carrito para que queden juntos en móvil */}
-        <div className="d-flex align-items-center ms-auto ms-lg-0">
-          <button
-            className={`navbar-toggler ${isOpen ? "" : "collapsed"}`}
-            type="button"
-            aria-controls="navbarContent"
-            aria-expanded={isOpen}
-            aria-label="Toggle navigation"
-            onClick={toggleMenu}
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-
-          {/* Carrito siempre visible (fuera del collapse) */}
-          <Link
-            to="/cart"
-            className="navbar-cart position-relative d-inline-block ms-2"
-            aria-label="Ver carrito"
-            onClick={closeMenu}
-          >
-            <img
-              width="32"
-              height="32"
-              src="https://img.icons8.com/?size=32&id=M5FruzZetXVn&format=png"
-              alt="shopping-cart"
-            />
-            {safeTotalItems > 0 && (
-              <span
-                className="badge bg-danger cart-badge"
-                style={{
-                  position: "absolute",
-                  top: -6,
-                  right: -6,
-                  fontSize: 12,
-                }}
-              >
-                {safeTotalItems}
-              </span>
-            )}
-          </Link>
-        </div>
-
+        {/* collapse: ocupa espacio central (flex:1) */}
         <div
           className={
-            "collapse navbar-collapse justify-content-between" +
-            (isOpen ? " show" : "")
+            "collapse navbar-collapse navbar-center" + (isOpen ? " show" : "")
           }
           id="navbarContent"
         >
@@ -136,6 +106,37 @@ function Navbar() {
               </svg>
             </span>
           </form>
+        </div>
+
+        {/* acciones: toggler + carrito, siempre a la derecha */}
+        <div className="navbar-actions d-flex align-items-center">
+          {/* toggler removed from here (now on the left) */}
+          <Link
+            to="/cart"
+            className="navbar-cart position-relative d-inline-block ms-2"
+            aria-label="Ver carrito"
+            onClick={closeMenu}
+          >
+            <img
+              width="32"
+              height="32"
+              src="https://img.icons8.com/?size=32&id=M5FruzZetXVn&format=png"
+              alt="shopping-cart"
+            />
+            {safeTotalItems > 0 && (
+              <span
+                className="badge bg-danger cart-badge"
+                style={{
+                  position: "absolute",
+                  top: -6,
+                  right: -6,
+                  fontSize: 12,
+                }}
+              >
+                {safeTotalItems}
+              </span>
+            )}
+          </Link>
         </div>
       </div>
     </nav>
