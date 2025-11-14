@@ -11,7 +11,7 @@ function Mujeres() {
     <div className="hombres-page">
       <div className="banner-hombres">
         <img
-          src="https://topitop.vtexassets.com/assets/vtex.file-manager-graphql/images/e6d1087e-0206-4df5-b71e-e6b78033b0ec___7fb142306c956d13ccdc870705cd839b.png"
+          src="/Style-Store/img/banners/infantil.png"
           alt="Banner Infantil"
           className="banner-image"
         />

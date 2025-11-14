@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="contact-container">
       <div className="contact-image">
         <img
-          src="https://topitop.vtexassets.com/arquivos/banner-contactanos-desktop.jpg"
+          src="/Style-Store/img/banners/contacto.png"
           alt="Personas usando ropa estilo StyleStore"
         />
       </div>

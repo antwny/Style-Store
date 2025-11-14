@@ -59,10 +59,10 @@ function Home() {
   ];
 
   let imagenes = [
-    "https://eu.gymshark.com/_next/image?url=https:%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F6i2Ans0cuf9CVhT6QnqZl7%2F625849eec8404b9014874d544456c7cf%2F3840x1140_Dual.jpg&w=1920&q=85",
-    "https://cdn.grupoelcorteingles.es/statics/manager/contents/images/uploads/2025/01/SyNFEmHIJx.jpeg",
-    "https://kinsta.altitude-sports.com/wp-content/uploads/2018/02/Altitude-Blog-Rains-Stutterheim-Urban-Unisex-Raincoats-COVER.jpg",
-    "https://static.fendi.com/cms/resource/image/637260/landscape_ratio8x3/1144/429/acbe7b887843cbe50a833a2af77ea8a9/0DAEE12D74D0674454F124B084B691FF/ms-adv-fw22-digital-16-9-14-1-.jpg",
+    "/Style-Store/img/banners/home1.png",
+    "/Style-Store/img/banners/home2.png",
+    "/Style-Store/img/banners/home3.png",
+    "/Style-Store/img/banners/home4.png",
   ];
 
   const [ruta, setRuta] = useState(imagenes[0]);
